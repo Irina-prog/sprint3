@@ -30,7 +30,7 @@
 }
 
 @font-face {
-    src: url('Inter/Inter-SemiBold.otf');
+    src: url('Inter/Inter-Bold.otf');
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
@@ -242,7 +242,7 @@
 
 .place__title {
     font-style: normal;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 72px;
     line-height: 65px;
     margin: 0;
@@ -284,7 +284,7 @@
 }
 
 .place__description1 {
-    margin-top: 0 0 36px;
+    margin: 0 0 36px;
 }
 .place__description2 {
     margin: 0;
