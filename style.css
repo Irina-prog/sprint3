@@ -1,0 +1,134 @@
+@font-face {
+    src: url('Inter/Inter-Medium.otf');
+    font-family: 'Inter';
+}
+@font-face {
+    src: url('Inter/Inter-Italic.otf');
+    font-family: 'Inter';
+    font-style: italic;
+}
+@font-face {
+    src: url('Inter/Inter-SemiBold.otf');
+    font-family: 'Inter';
+    font-weight: semibold;
+}
+@font-face {
+    src: url('Inter/Inter-SemiBoldItalic.otf');
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: semibold;
+}
+
+
+.page {
+    background: #2A2C2F;
+    margin: 0 auto 0;
+    
+}
+.header {
+    background: #2A2C2F;
+    color: #FFFFFF;
+    min-width: 1280px;
+    max-width: 1440px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0;
+    
+}
+.header__logo {
+    background-image: url(images/logo.svg);
+    width: 176.58px;
+    height: 52px;
+    margin-top: 30px;
+    margin-left: 48px;
+    margin-right: 929.42px;
+
+}
+.header__lang {
+    width: 78px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 47px;
+    justify-content: space-between;
+}
+.header__lang_element {
+    width: 30px;
+    height: 23px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+}
+.header__lang_element_checked {
+    text-decoration: underline;
+}
+.lead {
+    background: #2A2C2F;
+    color: #FFFFFF;
+    min-width: 1280px;
+    max-width: 1440px;
+    margin: 0 auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.lead__title {
+    background: #2A2C2F;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 93px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 782px;
+    height: 184px;
+    margin: 0 auto 0;
+}
+.lead__subtitle {
+    background: #2A2C2F;
+    color: #FFFFFF;
+    width: 583px;
+    height: 65px;
+    margin: 78px auto 0;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+
+}
+.lead__section {
+    margin: 78px auto 0;
+    display: flex;
+    flex-direction: column;
+    width: 984px;
+}
+.lead__image {
+    
+    height: 554.13px;
+    
+    display: block
+}
+.lead__capture {
+    width: 636px;
+    height: 10px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+}
