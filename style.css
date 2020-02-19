@@ -40,11 +40,10 @@
     background: #2A2C2F;
     margin: 0 auto 0;
     font-family: Inter;
+    color: #FFFFFF;
 }
 
 .header {
-    background: #2A2C2F;
-    color: #FFFFFF;
     min-width: 1280px;
     max-width: 1440px;
     height: 130px;
@@ -89,7 +88,6 @@
 
 .lead {
     background: #2A2C2F;
-    color: #FFFFFF;
     min-width: 1280px;
     max-width: 1440px;
     margin: 0 auto 0;
@@ -99,8 +97,6 @@
 }
 
 .lead__title {
-    background: #2A2C2F;
-    color: #FFFFFF;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -112,8 +108,6 @@
 }
 
 .lead__subtitle {
-    background: #2A2C2F;
-    color: #FFFFFF;
     width: 583px;
     height: 65px;
     margin: 78px auto 0;
@@ -146,12 +140,9 @@
     line-height: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #FFFFFF;
 }
 
 .intro {
-    background: #2A2C2F;
-    color: #FFFFFF;
     width: 984px;
     padding-top: 80px;
     margin: 0 auto 0;
@@ -220,14 +211,11 @@
     height: 188px;
 }
 
-
-
 .place {
     display: flex;
     width: 984px;
     flex-direction: row;
     margin: 72px auto 0;
-    color: #FFFFFF;
 }
 
 .place__column1 {
@@ -258,15 +246,15 @@
 }
 
 .place__url {
-    margin: 87px 0 0 ;
+    margin: 87px 0 0;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.2em;
-    
 }
+
 .place__text {
     font-family: Inter;
     font-style: normal;
@@ -274,6 +262,7 @@
     font-size: 18px;
     line-height: 30px;
 }
+
 .place__website {
     text-decoration-line: underline;
     color: #FFFFFF;
@@ -283,7 +272,31 @@
 .place__description1 {
     margin: 0 0 36px;
 }
+
 .place__description2 {
     margin: 0;
+}
 
+.video {
+    width: 1184px;
+    margin: 102px auto 0;
+    text-align: center;
+}
+
+.video__title {
+    width: 800px;
+    margin: 0 auto 48px;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+}
+.video__subtitle {
+    width: 640px;
+    margin: 0 auto 72px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
 }
