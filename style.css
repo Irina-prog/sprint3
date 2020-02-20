@@ -337,13 +337,24 @@
     grid-column-gap: 16px;
 }
 
-.additional-item {
+.additional__item {
     width: 284px;
     height: 330px;
-    background-image: url(images/nvrssk.jpg);
+    
     position: relative;
 }
-
+.additional__item_bg-nvrssk {
+    background-image: url(images/nvrssk.jpg);
+}
+.additional__item_bg-shihan {
+    background-image: url(images/shickan.jpg);
+}
+.additional__item_bg-cherep {
+    background-image: url(images/cherepovets.jpg);
+}
+.additional__item_bg-nikola {
+    background-image: url(images/nikola.jpg);
+}
 .additional__item-title {
     margin-top: 30px;
     margin-left: 18px;
