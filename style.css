@@ -286,26 +286,80 @@
 .video__title {
     width: 800px;
     margin: 0 auto 48px;
-    
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 78px;
 }
+
 .video__subtitle {
     width: 640px;
     margin: 0 auto 72px;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
 }
+
 .video__block {
     width: 1184px;
     margin: 0 auto 0;
     display: grid;
     grid-template-columns: repeat(2, 583px);
     grid-column-gap: 48px;
+}
 
+.additional__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+    text-align: center;
+    margin-top: 102px;
+    margin-bottom: 48px;
+}
 
+.additional__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.additional__container {
+    display: grid;
+    width: 1184px;
+    margin: 0 auto 0;
+    grid-template-columns: repeat(4, 284px);
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+
+.additional-item {
+    width: 284px;
+    height: 330px;
+    background-image: url(images/nvrssk.jpg);
+    position: relative;
+}
+
+.additional__item-title {
+    margin-top: 30px;
+    margin-left: 18px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 29px;
+}
+
+.additional__item-sybtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width: 248px;
+    position: absolute;
+    bottom: 30px;
+    left: 18px;
 }
