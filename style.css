@@ -280,7 +280,7 @@
 .video {
     width: 1184px;
     margin: 102px auto 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .video__title {
@@ -307,6 +307,55 @@
     display: grid;
     grid-template-columns: repeat(2, 583px);
     grid-column-gap: 48px;
+}
+
+.video__item {
+    background-size: cover;
+    width: 583px;
+    height: 323px;
+}
+
+.video__playicon {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.item_pickamchatka {
+    background-image: url(images/kamchatka.jpg);
+}
+
+.item__picobservary {
+    background-image: url(images/observatory.jpg);
+}
+
+.video__time {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    margin-top: 94px;
+    margin-left: 30px;
+}
+
+.video__item-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+}
+
+.video__avtor {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    margin-left: 30px;
 }
 
 .additional__title {
@@ -340,21 +389,25 @@
 .additional__item {
     width: 284px;
     height: 330px;
-    
     position: relative;
 }
+
 .additional__item_bg-nvrssk {
     background-image: url(images/nvrssk.jpg);
 }
+
 .additional__item_bg-shihan {
     background-image: url(images/shickan.jpg);
 }
+
 .additional__item_bg-cherep {
     background-image: url(images/cherepovets.jpg);
 }
+
 .additional__item_bg-nikola {
     background-image: url(images/nikola.jpg);
 }
+
 .additional__item-title {
     margin-top: 30px;
     margin-left: 18px;
