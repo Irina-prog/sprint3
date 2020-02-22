@@ -528,11 +528,13 @@
     line-height: 46px;
     width: 443px;
     align-self: flex-start;
+    margin: 0;
 }
 
 /*сделать перенос строчки */
 
 .emblem__items {
+    margin-top: 82px;
     display: grid;
     grid-template-columns: repeat(5, 208px);
     grid-row-gap: 36px;
@@ -645,4 +647,5 @@
     line-height: 20px;
     text-align: right;
     color: #FFFFFF;
+    flex-grow: 1;
 }
