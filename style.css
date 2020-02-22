@@ -315,13 +315,16 @@
     display: grid;
     grid-template-columns: repeat(2, 583px);
     grid-column-gap: 18px;
+
 }
 
 .video__item {
     background-size: cover;
     width: 583px;
     height: 323px;
-}
+    border-radius: 5px;
+    background-position: center;
+} /*Кажется уголочки все равно с белыми точками*/
 
 .video__playicon {
     margin-top: 30px;
@@ -398,6 +401,8 @@
     width: 284px;
     height: 330px;
     position: relative;
+    border-radius: 5px;
+    background-position: center; /*Не уверена похоже ли на макет или нет, но иначе белые точки по углам*/
 }
 
 .additional__item_bg-nvrssk {
