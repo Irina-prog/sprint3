@@ -171,7 +171,7 @@
     margin-bottom: 35px;
 }
 
-.intro__text1 {
+.intro__text_font-medium {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -180,15 +180,17 @@
     margin: 0 18px 0 0;
 }
 
-.intro__text2 {
+.intro__text_font-small {
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 10px;
     line-height: 16px;
     width: 220px;
     margin: 0;
 }
-
+.intro__text_bold {
+    font-weight: bold;
+}
 .intro__text3 {
     font-style: normal;
     font-weight: bold;
