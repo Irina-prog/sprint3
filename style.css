@@ -500,11 +500,12 @@
     height: 594px;
     margin: 102px auto 82px;
     text-align: center;
-    
 }
+
 .cover:hover {
-    opacity: .8;
+    opacity:0.8
 }
+
 
 .cover__title {
     font-style: normal;
