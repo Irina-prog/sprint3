@@ -290,6 +290,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 78px;
+    text-align: center;
 }
 .video__link {
     text-decoration: none;
@@ -512,7 +513,7 @@
     z-index: -1;
     opacity: 0.8;
 
-}
+} /* надо переделать на флекс*/
 
 .cover:hover:before {
     opacity: 0.3;
