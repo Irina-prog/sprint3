@@ -295,6 +295,9 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+.link:hover {
+    opacity: .5;
+}
 
 .video__subtitle {
     width: 640px;
@@ -497,9 +500,10 @@
     height: 594px;
     margin: 102px auto 82px;
     text-align: center;
+    
 }
 .cover:hover {
-    opacity: 0.8;
+    opacity: .8;
 }
 
 .cover__title {
