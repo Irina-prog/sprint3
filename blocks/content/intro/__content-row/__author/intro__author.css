@@ -1,0 +1,9 @@
+@import url('./_theme_bold/intro__author_theme_bold.css');
+.intro__author {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    width: 220px;
+    margin: 0;
+}

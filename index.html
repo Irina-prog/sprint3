@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="pages/index.css">
 </head>
 
 
-    <body class="page">
+    <body class="content">
         <header class="header">
             <div class="header__logo"></div>
             <div class="header__lang">
@@ -19,18 +19,18 @@
             </div>
         </header>
         <section class="lead">
-            <h1 class="lead__title">Путешествия по России</h1>
-            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+            <h1 class="content-title_block_lead">Путешествия по России</h1>
+            <p class="content-subtitle_block_lead">Настоящая страна не в выпусках новостей, а здесь.</p>
             <div class="lead__section">
                 <img src="images/polka.jpg" alt="женщина спит в поезде" class="lead__image">
                 <p class="lead__capture">ваша полка — верхняя</p>
             </div>
         </section>
         <section class="intro">
-            <h3 class="intro__title">Чего мы там не видели?</h3>
-            <p class="intro__subtitle">Зачем путешествовать по своему дому</p>
+            <h3 class="content-title_block_intro">Чего мы там не видели?</h3>
+            <p class="content-subtitle_block_intro">Зачем путешествовать по своему дому</p>
             <div class="intro__content-row">
-                <p class="intro__text_font-medium">
+                <p class="intro__description">
                     По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в
                     родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
                     ласковым
@@ -41,12 +41,12 @@
                     километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
                     отпуска.
                 </p>
-                <p class="intro__text_font-small">
-                    <span class="intro__text_bold">Автор текста:</span> <придумайте имя автора>
-                        <span class="intro__text_bold">Дата:</span> <впишите дату>
+                <p class="intro__author">
+                    <span class="intro__author_theme_bold">Автор текста:</span> <придумайте имя автора>
+                        <span class="intro__author_theme_bold">Дата:</span> <впишите дату>
                 </p>
             </div>
-            <ul class="intro__text3">
+            <ul class="intro__infa">
                 <li>Часовых поясов 11</li>
                 <li>Объектов природного наследия ЮНЕСКО 12</li>
                 <li>Объектов культурного наследия ЮНЕСКО 16</li>
@@ -69,19 +69,20 @@
             <img src="images/ergaki.jpg" alt="туман в горах" class="photo-grid__card">
         </section>
 
+        <section class="places">
         <section class="place">
 
-            <div class="place__column1">
-                <h2 class="place__title">Куршская коса</h2>
+            <div class="place__column-photo">
+                <h2 class="content-title_block_place">Куршская коса</h2>
                 <img src="images/kosa.jpg" alt="Куршская коса" class="place__img">
             </div>
-            <div class="place__column2">
+            <div class="place__column-details">
                 <p class="place__url">URL</p>
-                <a class="place__website place__text link" href="https://park-kosa.ru">park-kosa.ru</a>
-                <p class="place__description1 place__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
+                <a class="place__website link" href="https://park-kosa.ru">park-kosa.ru</a>
+                <p class="place__description">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                     водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
                     моря с другой. Уникальная природная зона на краю российского анклава.</p>
-                <p class="place__description2 place__text">На этом Калининградская область не заканчивается. Для
+                <p class="place__description">На этом Калининградская область не заканчивается. Для
                     путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса,
                     — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету,
                     окуная в спокойствие природы и запах стального, прохладного моря.</p>
@@ -89,7 +90,7 @@
         </section>
         <section class="place">
             <div class="place__column1">
-                <h2 class="place__title">Кольский</h2>
+                <h2 class="content-title_block_place">Кольский</h2>
                 <img src="images/kolsky.jpg" alt="Кольский" class="place__img">
             </div>
             <div class="place__column2">
@@ -108,7 +109,7 @@
         </section>
         <section class="place">
             <div class="place__column1">
-                <h2 class="place__title">Алтай</h2>
+                <h2 class="content-title_block_place">Алтай</h2>
                 <img src="images/altai.jpg" alt="Алтай" class="place__img">
             </div>
             <div class="place__column2">
@@ -127,7 +128,7 @@
         </section>
         <section class="place">
             <div class="place__column1">
-                <h2 class="place__title">Зимний Байкал</h2>
+                <h2 class="content-title_block_place">Зимний Байкал</h2>
                 <img src="images/winter-baikal.jpg" alt="Зимний Байкал" class="place__img">
             </div>
             <div class="place__column2">
@@ -143,7 +144,7 @@
         </section>
         <section class="place">
             <div class="place__column1">
-                <h2 class="place__title">Карелия</h2>
+                <h2 class="content-title_block_place">Карелия</h2>
                 <img src="images/karelia.jpg" alt="Карелия" class="place__img">
             </div>
             <div class="place__column2">
@@ -158,13 +159,14 @@
                     хозяин.</p>
             </div>
         </section>
+        </section>
         <section class="video">
-            <h2 class="content-title">В глубины Земли и в дальний космос</h2>
-            <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
+            <h2 class="content-title_block_video">В глубины Земли и в дальний космос</h2>
+            <p class="content-subtitle_block_video">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
                 исследования</p>
             <div class="video__container">
                 <a href="https://vimeo.com/81106671" class=video__link>
-                    <div class="video__item item_pickamchatka">
+                    <div class="video__item item_picture_kamchatka">
                         <div class="video__icon video__icon_type_play"></div>
                         <p class="video__duration">6:30</p>
                         <p class="video__title">Colors of Kamchatka </p>
@@ -173,7 +175,7 @@
                     </div>
                 </a>
                 <a href="https://vimeo.com/290675450" class=video__link> 
-                    <div class="video__item item_picobservary">
+                    <div class="video__item item_picture_observary">
                         <div class="video__icon video__icon_type_play"></div>
                         <p class="video__duration">24:45</p>
                         <p class="video__title">Обсерватория | Observatory </p>
@@ -184,25 +186,25 @@
             </div>
         </section>
         <section class="additional">
-            <h2 class="additional__title">А также</h2>
-            <p class="additional__subtitle">места, рекомендованные нашими фотографами</p>
+            <h2 class="content-title_block_additional">А также</h2>
+            <p class="content-subtitle_block_additional">места, рекомендованные нашими фотографами</p>
             <div class="additional__container">
-                <div class="additional__item additional__item_bg-nvrssk ">
+                <div class="additional__item additional__item_bg_nvrssk ">
                     <div class="additional__item-title">Новороссийская бухта</div>
                     <div class="additional__item-sybtitle">Главный торговый порт не курорт, но море здесь лазурное, и
                         толпы кораблей на рейде. Залюбуешься.</div>
                 </div>
-                <div class="additional__item additional__item_bg-shihan">
+                <div class="additional__item additional__item_bg_shihan">
                     <div class="additional__item-title">Аракульский шихан</div>
                     <div class="additional__item-sybtitle">Даже для Южного Урала, где красиво везде, это пейзаж
                         выдающийся. И там отсутствует несносная мошкá.</div>
                 </div>
-                <div class="additional__item additional__item_bg-cherep">
+                <div class="additional__item additional__item_bg_cherep">
                     <div class="additional__item-title">Череповец</div>
                     <div class="additional__item-sybtitle">Громадный металлургический комбинат на водном пути с Волги в
                         Балтийское море. В нём есть своя красота.</div>
                 </div>
-                <div class="additional__item additional__item_bg-nikola">
+                <div class="additional__item additional__item_bg_nikola">
                     <div class="additional__item-title">Никола-Ленивец</div>
                     <div class="additional__item-sybtitle">Оцените ответ современных художников идолам капища, которое
                         было тут при древнем поселении на реке Угра.</div>
@@ -210,8 +212,8 @@
             </div>
         </section>
         <section class="comments">
-            <h2 class="comments__title">Фотографы, снимающие Россию</h2> <!-- ф встала на р -->
-            <p class="comments__subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных
+            <h2 class="content-title_block_comments">Фотографы, снимающие Россию</h2> <!-- ф встала на р -->
+            <p class="content-subtitle_block_comments">Природа и люди вдохновили их работы, удостоенные наград на международных
                 конкурсах</p>
             <div class="cards">
                 <div class="cards__item">
@@ -236,8 +238,8 @@
             </div>
         </section>
         <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala"> <!-- может надо добавить и затемнение текста-->
-            <h3 class="cover__title">До Байкала «на собаках»</h3> 
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
+            <h3 class="content-title_block_cover">До Байкала «на собаках»</h3> 
+            <p class="content-subtitle_block_cover">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
                 на электричках.</p>
         </a>
         <section class="emblem">-

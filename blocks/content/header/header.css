@@ -1,0 +1,11 @@
+@import url('./__logo/header__logo.css');
+@import url('./__lang/header__lang.css');
+
+.header {
+    min-width: 1280px;
+    max-width: 1440px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0;
+}

@@ -1,0 +1,27 @@
+@import url('./__item-title/additional__item-title.css');
+@import url('./__item-sybtitle/additional__item-sybtitle.css');
+
+
+.additional__item {
+    width: 284px;
+    height: 330px;
+    position: relative;
+    border-radius: 5px;
+    background-size: cover;
+}
+.additional__item::before {
+    width: 284px;
+    height: 330px;
+    border-radius: 5px;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.5;
+    content: "";
+
+}
+.additional__item:hover:before {
+    opacity: 0.3;
+}

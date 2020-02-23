@@ -1,0 +1,29 @@
+@import url('../../content-title/_block/_cover/content-title_block_cover.css');
+@import url('../../content-subtitle/_block/_cover/content-subtitle_block_cover.css');
+.cover {
+    display: block;
+    width: 1184px;
+    height: 594px;
+    margin: 102px auto 82px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.cover::before {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 1184px;
+    height: 594px;
+    left: 0;
+    right: 0;
+    content: "";
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+.cover:hover:before {
+    opacity: 0.3;
+}

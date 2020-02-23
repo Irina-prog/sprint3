@@ -1,0 +1,9 @@
+@import url('./__item/cards__item.css');
+.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 382px);
+    grid-row-gap: 19px;
+    grid-column-gap: 19px;
+    width: 1184px;
+}

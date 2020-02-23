@@ -1,0 +1,8 @@
+@import url('./__column-photo/place__column-photo.css');
+@import url('./__column-details/place__column-details.css');
+.place {
+    display: flex;
+    width: 984px;
+    flex-direction: row;
+    margin: 72px auto 0;
+}

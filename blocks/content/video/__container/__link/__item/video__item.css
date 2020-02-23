@@ -1,0 +1,29 @@
+@import url('./__icon/video__icon.css');
+@import url('./__icon/_type/_play/video__icon_type_play.css');
+@import url('./__duration/video__duration.css');
+@import url('./__title/video__title.css');
+@import url('./__subtitle/video__subtitle.css');
+
+
+
+.video__item {
+    background-size: cover;
+    width: 583px;
+    height: 323px;
+    
+}
+.video__item::before {
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    width: 583px;
+    height: 323px;
+    content: "";
+    z-index: -1;
+    opacity: 0.8;
+    border-radius: 5px;    
+}
+.video__item:hover:before {
+    opacity: 0.3;
+}

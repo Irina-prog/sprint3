@@ -1,0 +1,9 @@
+@import url('./__lang-element/header__lang-element.css');
+.header__lang {
+    width: 78px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 47px;
+    justify-content: space-between;
+}

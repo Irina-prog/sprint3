@@ -1,0 +1,9 @@
+@import url('./__url/place__url.css');
+@import url('./__website/place__website.css');
+@import url('./__description/place__description.css');
+@import url('../../../../link/link.css');
+.place__column-details {
+    display: flex;
+    width: 484px;
+    flex-direction: column;
+}
