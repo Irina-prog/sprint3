@@ -49,7 +49,7 @@
     justify-content: space-between;
 }
 
-.header__lang_element {
+.header__lang-element {
     width: 30px;
     height: 23px;
     text-decoration: none;
@@ -61,8 +61,7 @@
     text-align: right;
 }
 
-.header__lang_element:active {
-    /* подчеркивание исчезает*/
+.header__lang-element_active {
     text-decoration: underline;
 }
 
