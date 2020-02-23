@@ -16,14 +16,15 @@
 }
 
 @font-face {
-    src: url('Inter/Inter-SemiBoldItalic.otf');
+    src: url('Inter/Inter-SemiBoldItalic.otf'),
+        url('Inter\ \(Web\)/');
     font-family: 'Inter';
     font-style: italic;
     font-weight: semibold;
 }
 
 @font-face {
-    src: url('Inter/Inter-Regular.otf');
+    src: url('Inter Web/');
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
@@ -396,6 +397,8 @@
     text-align: center;
     margin-top: 102px;
     margin-bottom: 48px;
+    
+
 }
 
 .additional__subtitle {
@@ -598,7 +601,7 @@
     font-weight: 900;
     font-size: 42px;
     line-height: 46px;
-    width: 443px;
+    width: 430px;
     align-self: flex-start;
     margin: 0;
 }
