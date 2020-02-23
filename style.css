@@ -1,37 +1,15 @@
-@font-face {
-    src: url('Inter/Inter-Medium.otf');
-    font-family: 'Inter';
-}
 
 @font-face {
-    src: url('Inter/Inter-Italic.otf');
-    font-family: 'Inter';
-    font-style: italic;
-}
-
-@font-face {
-    src: url('Inter/Inter-SemiBold.otf');
-    font-family: 'Inter';
-    font-weight: semibold;
-}
-
-@font-face {
-    src: url('Inter/Inter-SemiBoldItalic.otf'),
-        url('Inter\ \(Web\)/');
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: semibold;
-}
-
-@font-face {
-    src: url('Inter Web/');
+    src: url('Inter\ \(Web\)/Inter-Regular.woff'),
+    src: url('Inter\ \(Web\)/Inter-Regular.woff2');
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    src: url('Inter/Inter-Bold.otf');
+    src: url('Inter\ \(Web\)/Inter-Bold.woff');
+    src: url('Inter\ \(Web\)/Inter-Bold.woff2');
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
@@ -100,7 +78,7 @@
 
 .lead__title {
     font-style: normal;
-    font-weight: 900;
+    font-weight: 900; /* для этого 900 - нужно какой-то шрифт подгружать? какой? */
     font-size: 96px;
     line-height: 93px;
     text-align: center;
