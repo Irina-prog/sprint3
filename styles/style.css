@@ -263,7 +263,7 @@
     
 }
 
-.video__title {
+.content-title {
     max-width: 800px;
     margin: 0 auto 48px;
     font-style: normal;
@@ -282,13 +282,14 @@
     opacity: .5;
 }
 
-.video__subtitle {
+.content-subtitle {
     max-width: 640px;
     margin: 0 auto 72px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 35px;
+    text-align: center;
 }
 
 .video__block {
