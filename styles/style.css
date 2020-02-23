@@ -292,7 +292,7 @@
     text-align: center;
 }
 
-.video__block {
+.video__container {
     width: 1184px;
     margin: 0 auto 0;
     display: grid;
@@ -329,11 +329,11 @@
 .item_picobservary::before {
     background-image: url(../images/observatory.jpg);
 }
-.video__playicon {
+.video__icon {
     margin-top: 30px;
     margin-left: 30px;
 }
-.video__time {
+.video__duration {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -343,7 +343,7 @@
     margin-left: 30px;
 }
 
-.video__item-title {
+.video__title {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -354,7 +354,7 @@
     margin-left: 30px;
 }
 
-.video__avtor {
+.video__subtitle {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
