@@ -1,0 +1,9 @@
+@import url(../../content-title/_block/_emblem/content-title_block_emblem.css);
+@import url(./__items/emblem__items.css);
+.emblem {
+    display: flex;
+    flex-direction: column;
+    margin: 82px auto 85px;
+    align-items: center;
+    width: 1184px;
+}

@@ -1,0 +1,5 @@
+@import url('./__item-img/emblem__item-img.css');
+@import url('./__item-title/emblem__item-title.css');
+.emblem__item {
+    width: 208px;
+}

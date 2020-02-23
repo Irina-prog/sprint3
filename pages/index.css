@@ -16,151 +16,25 @@
 
 
 
-.emblem {
-    display: flex;
-    flex-direction: column;
-    margin: 82px auto 85px;
-    align-items: center;
-    width: 1184px;
-}
-
-.emblem__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 42px;
-    line-height: 46px;
-    max-width: 430px;
-    align-self: flex-start;
-    margin: 0;
-}
 
 
 
-.emblem__items {
-    margin-top: 82px;
-    display: grid;
-    grid-template-columns: repeat(5, 208px);
-    grid-row-gap: 36px;
-    grid-column-gap: 36px;
-}
 
-.emblem__item {
-    width: 208px;
-}
 
-.emblem__item-img {
-    width: 186px;
-    height: 226px;
-    margin: 0 10px 35px;
-}
 
-.emblem__item-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 26px;
-    text-align: center;
-    color: #CCCCCC;
-}
 
-.barentsburg {
-    width: 1184px;
-    margin: 0 auto 160px;
-}
 
-.barentsburg__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 42px;
-    line-height: 61px;
-}
 
-.barentsburg__coord {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 42px;
-    line-height: 61px;
-}
 
-.barentsburg__img {
-    width: 1184px;
-    height: 464px;
-    margin-bottom: 48px;
-}
 
-.barentsburg__columns {
-    display: flex;
-    flex-direction: row;
-}
 
-.barentsburg__text {
-    width: 380px;
-    margin: 0 120px 0 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-}
 
-.barentsburg__url {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.2em;
-    color: #AAAAAA;
-}
 
-.barentsburg__text-column {
-    width: 282px;
-}
 
-.barentsburg__link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    text-decoration: none;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-}
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-    width: 1184px;
-    margin: 0 auto 0;
-    padding-bottom: 48px;
-}
 
-.footer__links {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    padding-inline-start: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
 
-.footer__link {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 41px;
-    margin: 0 18px 0 0;
-    color: #FFFFFF;
-}
 
-.footer__copywrite {
-    align-self: flex-end;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: right;
-    color: #FFFFFF;
-    flex-grow: 1;
-    margin: 0;
-}
+
+
+
