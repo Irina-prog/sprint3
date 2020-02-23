@@ -1,18 +1,30 @@
 
 @font-face {
-    src: url('../fonts/Inter-Regular.woff') format('woff'),
-         url('../fonts/Inter-Regular.woff2') format('woff2');
+    src: url('/vendor/fonts/Inter-Regular.woff') format('woff'),
+         url('/vendor/fonts/Inter-Regular.woff2') format('woff2');
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
-    src: url('../fonts/Inter-Bold.woff') format('woff'),
-        url('../fonts/Inter-Bold.woff2') format('woff2');
+    src: url('/vendor/fonts/Inter-Bold.woff') format('woff'),
+        url('/vendor/fonts/Inter-Bold.woff2') format('woff2');
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
 }
+@import url(/blocks/content/header/header.css);
+@import url(/blocks/content/lead/lead.css);
+@import url(/blocks/content/intro/intro.css);
+@import url(/blocks/content/photo-grid/photo-grid.css);
+@import url(/blocks/content/places/places.css);
+@import url(/blocks/content/video/video.css);
+@import url(/blocks/content/additional/additional.css);
+@import url(/blocks/content/comments/comments.css);
+@import url(/blocks/content/cover/cover.css);
+@import url(/blocks/content/emblem/emblem.css);
+@import url(/blocks/content/barentsburg/barentsburg.css);
+@import url(/blocks/content/footer/footer.css);
 
 
 
