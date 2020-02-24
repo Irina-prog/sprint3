@@ -1,4 +1,7 @@
 @import url('./__item/video__item.css');
+@import url('./__item/_picture/_kamchatka/item_picture_kamchatka.css');
+@import url('./__item/_picture/_observary/item_picture_observary.css');
+
 
 .video__link {
     text-decoration: none;
