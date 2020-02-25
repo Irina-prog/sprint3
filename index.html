@@ -11,20 +11,20 @@
     <!--+Надо исправить:
         Язык документа: русский. Поэтому title должен быть на русском и иметь осмысленное содержание отражающий название страницы.
     -->
-    <link rel="stylesheet" href="./vendor/normalize.css"> 
+    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 
-    <body class="content">
-        <header class="header">
-            <div class="header__logo"></div>
-            <div class="header__lang">
-                <a class="header__lang-element link header__lang-element_active" href="#">Ru</a>
-                <a class="header__lang-element link" href="#">En</a>
-            </div>
-        </header>
-        <!--Можно лучше:
+<body class="content">
+    <header class="header">
+        <div class="header__logo"></div>
+        <div class="header__lang">
+            <a class="header__lang-element link header__lang-element_active" href="#">Ru</a>
+            <a class="header__lang-element link" href="#">En</a>
+        </div>
+    </header>
+    <!--Можно лучше:
             Блок header и его элементы спозиционированны с помощью margin. Это не правильный подход, так как усложнит задачу при адаптации сайта под мобильные устройства.
             
             Попробуйте использовать больше возможностей flex для блока .header: такие как "justify-content:", "align-items:". При этому максимально убрав эти конструкции:
@@ -43,81 +43,81 @@
             Попробуйте пройти игру про Flex: http://flexboxfroggy.com/#ru
         -->
 
-        <!--Надо исправить:
+    <!--Надо исправить:
             Основное содержимое сайта должно быть вложено в элемент main.
             Подробнее об элементе: http://htmlbook.ru/html/main
         -->
-        <section class="lead">
-            <h1 class="content-title_block_lead">Путешествия по России</h1>
-                <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
-            
-            <p class="content-subtitle_block_lead">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
+    <section class="lead">
+        <h1 class="content-title content-title_block_lead">Путешествия по России</h1>
+        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
 
-            <div class="lead__section">
-                <img src="images/polka.jpg" alt="женщина спит в поезде" class="lead__image">
-                <p class="lead__capture">ваша полка — верхняя</p>
-                <!--Отлично:
+        <p class="content-subtitle content-subtitle_block_lead">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
+
+        <div class="lead__section">
+            <img src="images/polka.jpg" alt="женщина спит в поезде" class="lead__image">
+            <p class="lead__capture">ваша полка — верхняя</p>
+            <!--Отлично:
                     Использован "text-transform: uppercase", вместо CAPS LOCK'a. Хорошая практика.
                 -->
 
-            </div>
-        </section>
-        <section class="intro">
-            <h3 class="content-title_block_intro">Чего мы там не видели?</h3>
-            <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
-            <p class="content-subtitle_block_intro">Зачем путешествовать по своему дому</p>
-            <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
-            <div class="intro__content-row">
-                <p class="intro__description">
-                    По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в
-                    родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
-                    ласковым
-                    морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно
-                    без
-                    миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая
-                    молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
-                    километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
-                    отпуска.
-                </p>
-                <p class="intro__author">
-                    <span class="intro__author_theme_bold">Автор текста:</span> Практикум Яндексович
-                        <span class="intro__author_theme_bold">Дата:</span> 23.02.2020
-                </p>
-            </div>
-            <ul class="intro__infa">
-                <li>Часовых поясов 11</li>
-                <!--Надо исправить:
-                    Несоответствие макету. Цыфры не имеют жирного начертания.
+        </div>
+    </section>
+    <section class="intro">
+        <h3 class="content-title content-title_block_intro">Чего мы там не видели?</h3>
+        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
+        <p class="content-subtitle content-subtitle_block_intro">Зачем путешествовать по своему дому</p>
+        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
+        <div class="intro__content-row">
+            <p class="intro__description">
+                По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в
+                родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
+                ласковым
+                морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно
+                без
+                миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая
+                молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
+                километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
+                отпуска.
+            </p>
+            <p class="intro__author">
+                <span class="intro_theme_bold">Автор текста:</span> Практикум Яндексович
+                <span class="intro_theme_bold">Дата:</span> 23.02.2020
+            </p>
+        </div>
+        <ul class="intro__infa">
+            <li><span class="intro_theme_bold"></span>Часовых поясов 11</li>
+            <!--Надо исправить:
+                    Несоответствие макету. Цифры не имеют жирного начертания.
                 -->
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
-            </ul>
-        </section>
-        <section class="photo-grid">
+            <li><span class="intro_theme_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+            <li><span class="intro_theme_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+            <li><span class="intro_theme_bold">Природных заповедников</span> 105</li>
+            <li><span class="intro_theme_bold">Аэропортов</span> 241</li>
+        </ul>
+    </section>
+    <div class="photo-grid">
         <!--Можно лучше: валидатор "ругается" (Warning) на отсутствие заголовка у этой секции.
                 Так как заголовка по макету здесь нет - лучше использовать div, а не section.
         -->
-            <img src="images/train.jpg" alt="поезд" class="photo-grid__card">
-            <img src="images/atharva-tulsi.jpg" alt="гора" class="photo-grid__card">
-            <img src="images/tuman.jpg" alt="туман" class="photo-grid__card">
-            <img src="images/sochi.jpg" alt="сочи" class="photo-grid__card">
-            <img src="images/arisa.jpg" alt="колесо" class="photo-grid__card">
-            <img src="images/baikal.jpg" alt="байкал" class="photo-grid__card">
-            <img src="images/elbrus.jpg" alt="эльбрус" class="photo-grid__card">
-            <img src="images/kondratiev.jpg" alt="кондратьев" class="photo-grid__card">
-            <img src="images/kamchatka-1.jpg" alt="камчатка" class="photo-grid__card">
-            <img src="images/kamchatka-2.jpg" alt="гора на камчатке" class="photo-grid__card">
-            <img src="images/baikal-2.jpg" alt="байкал и гора" class="photo-grid__card">
-            <img src="images/ergaki.jpg" alt="туман в горах" class="photo-grid__card">
-        </section>
-        <!--Отлично:
+        <img src="images/train.jpg" alt="поезд" class="photo-grid__card">
+        <img src="images/atharva-tulsi.jpg" alt="гора" class="photo-grid__card">
+        <img src="images/tuman.jpg" alt="туман" class="photo-grid__card">
+        <img src="images/sochi.jpg" alt="сочи" class="photo-grid__card">
+        <img src="images/arisa.jpg" alt="колесо" class="photo-grid__card">
+        <img src="images/baikal.jpg" alt="байкал" class="photo-grid__card">
+        <img src="images/elbrus.jpg" alt="эльбрус" class="photo-grid__card">
+        <img src="images/kondratiev.jpg" alt="кондратьев" class="photo-grid__card">
+        <img src="images/kamchatka-1.jpg" alt="камчатка" class="photo-grid__card">
+        <img src="images/kamchatka-2.jpg" alt="гора на камчатке" class="photo-grid__card">
+        <img src="images/baikal-2.jpg" alt="байкал и гора" class="photo-grid__card">
+        <img src="images/ergaki.jpg" alt="туман в горах" class="photo-grid__card">
+    </div>
+    <!--Отлично:
             Гриды в photo-grid очень к месту.
         -->
 
-        <section class="places">
+    <div class="places">
         <!--Можно лучше: валидатор "ругается" (Warning) на отсутствие заголовка у этой секции.
                 Так как заголовка здесь нет - лучше использовать div, а не section.
         -->
@@ -193,7 +193,8 @@
             </div>
             <div class="place__column-details">
                 <p class="place__url">URL</p>
-                <a class="place__website place__text link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                <a class="place__website place__text link"
+                    href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                 <p class="place__description">Всем известен Байкал как крупнейшее озеро в мире. Многие
                     также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
                 <p class="place__description">Конечно, это всё так. Но Байкал ещё идеальное место
@@ -219,164 +220,168 @@
                     хозяин.</p>
             </div>
         </section>
-        </section>
-        <section class="video">
-            <h2 class="content-title_block_video">В глубины Земли и в дальний космос</h2>
-            <p class="content-subtitle_block_video">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
-                исследования</p>
-            <div class="video__container">
-                <a href="https://vimeo.com/81106671" class=video__link>
-                    <div class="video__item item_picture_kamchatka">
+    </div>
+    <section class="video">
+        <h2 class="content-title_block_video">В глубины Земли и в дальний космос</h2>
+        <p class="content-subtitle_block_video">Видео от студии Stereotactic о местах в России, где ведутся
+            фундаментальные
+            исследования</p>
+        <div class="video__container">
+            <a href="https://vimeo.com/81106671" class=video__link>
+                <div class="video__item video__item_picture_kamchatka">
                     <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
-                        <div class="video__icon video__icon_type_play"></div>
-                        <p class="video__duration">6:30</p>
-                        <p class="video__title">Colors of Kamchatka </p>
-                        <!--Надо исправить:
+                    <div class="video__icon video__icon_type_play"></div>
+                    <p class="video__duration">6:30</p>
+                    <p class="video__title">Colors of Kamchatka </p>
+                    <!--Надо исправить:
                             Несоответствие макету. Заголовки должны быть в 2 строки.
                         -->
 
-                        <p class="video__subtitle">Director: Pavel Karykhalin</p>
-    
-                    </div>
-                </a>
-                <a href="https://vimeo.com/290675450" class=video__link> 
-                    <div class="video__item item_picture_observary">
-                        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
-                        <div class="video__icon video__icon_type_play"></div>
-                        <p class="video__duration">24:45</p>
-                        <p class="video__title">Обсерватория | Observatory </p>
-                        <p class="video__subtitle">Director: Alexander Khudokon </p>
-    
-                    </div>
-                </a>
+                    <p class="video__subtitle">Director: Pavel Karykhalin</p>
+
+                </div>
+            </a>
+            <a href="https://vimeo.com/290675450" class=video__link>
+                <div class="video__item video__item_picture_observary">
+                    <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
+                    <div class="video__icon video__icon_type_play"></div>
+                    <p class="video__duration">24:45</p>
+                    <p class="video__title">Обсерватория | Observatory </p>
+                    <p class="video__subtitle">Director: Alexander Khudokon </p>
+
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="additional">
+        <h2 class="content-title_block_additional">А также</h2>
+        <p class="content-subtitle_block_additional">места, рекомендованные нашими фотографами</p>
+        <div class="additional__container">
+            <div class="additional__item additional__item_bg_nvrssk ">
+                <div class="additional__item-title">Новороссийская бухта</div>
+                <div class="additional__item-sybtitle">Главный торговый порт не курорт, но море здесь лазурное, и
+                    толпы кораблей на рейде. Залюбуешься.</div>
             </div>
-        </section>
-        <section class="additional">
-            <h2 class="content-title_block_additional">А также</h2>
-            <p class="content-subtitle_block_additional">места, рекомендованные нашими фотографами</p>
-            <div class="additional__container">
-                <div class="additional__item additional__item_bg_nvrssk ">
-                    <div class="additional__item-title">Новороссийская бухта</div>
-                    <div class="additional__item-sybtitle">Главный торговый порт не курорт, но море здесь лазурное, и
-                        толпы кораблей на рейде. Залюбуешься.</div>
-                </div>
-                <div class="additional__item additional__item_bg_shihan">
-                    <div class="additional__item-title">Аракульский шихан</div>
-                    <div class="additional__item-sybtitle">Даже для Южного Урала, где красиво везде, это пейзаж
-                        выдающийся. И там отсутствует несносная мошкá.</div>
-                </div>
-                <div class="additional__item additional__item_bg_cherep">
-                    <div class="additional__item-title">Череповец</div>
-                    <div class="additional__item-sybtitle">Громадный металлургический комбинат на водном пути с Волги в
-                        Балтийское море. В нём есть своя красота.</div>
-                </div>
-                <div class="additional__item additional__item_bg_nikola">
-                    <div class="additional__item-title">Никола-Ленивец</div>
-                    <div class="additional__item-sybtitle">Оцените ответ современных художников идолам капища, которое
-                        было тут при древнем поселении на реке Угра.</div>
-                </div>
+            <div class="additional__item additional__item_bg_shihan">
+                <div class="additional__item-title">Аракульский шихан</div>
+                <div class="additional__item-sybtitle">Даже для Южного Урала, где красиво везде, это пейзаж
+                    выдающийся. И там отсутствует несносная мошкá.</div>
             </div>
-        </section>
-        <section class="comments">
-            <h2 class="content-title_block_comments">Фотографы, снимающие Россию</h2> 
-            <!-- ф встала на р -->
-            <!-- Что бы это поправить воспользуйтесь: увеличте line-height. -->
-            <p class="content-subtitle_block_comments">Природа и люди вдохновили их работы, удостоенные наград на международных
-                конкурсах</p>
-            <div class="cards">
-                <div class="cards__item">
-                    <img src="images/lyagushkin.jpg" alt="Лягушкин" class="cards__image">
-                    <p class="cards__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
-                        “наружу”…»</p>
-                    <p class="cards__quote-author">Виктор Лягушкин</p>
-                </div>
-                <div class="cards__item">
-                    <img src="images/hafizov.jpg" alt="Хафизов" class="cards__image">
-                    <p class="cards__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
-                        фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью,
-                        рабочими местами и в конечном счёте наполняют его жизнью.»</p>
-                    <p class="cards__quote-author">Иван Хафизов</p>
-                </div>
-                <div class="cards__item">
-                    <img src="images/maksimshin.jpg" alt="Максимишин" class="cards__image">
-                    <p class="cards__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь,
-                        как им плохо, то ты сволочь и всё очернил.»</p>
-                    <p class="cards__quote-author">Сергей Максимишин</p>
-                </div>
+            <div class="additional__item additional__item_bg_cherep">
+                <div class="additional__item-title">Череповец</div>
+                <div class="additional__item-sybtitle">Громадный металлургический комбинат на водном пути с Волги в
+                    Балтийское море. В нём есть своя красота.</div>
             </div>
-        </section>
-        <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala"> <!-- может надо добавить и затемнение текста-->
-            <h3 class="content-title_block_cover">До Байкала «на собаках»</h3> 
-            <p class="content-subtitle_block_cover">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
-                на электричках.</p>
-        </a>
-        <section class="emblem">-
-            <!-- Надо исправить:
+            <div class="additional__item additional__item_bg_nikola">
+                <div class="additional__item-title">Никола-Ленивец</div>
+                <div class="additional__item-sybtitle">Оцените ответ современных художников идолам капища, которое
+                    было тут при древнем поселении на реке Угра.</div>
+            </div>
+        </div>
+    </section>
+    <section class="comments">
+        <h2 class="content-title_block_comments">Фотографы, снимающие Россию</h2>
+        <!-- ф встала на р -->
+        <!-- Что бы это поправить воспользуйтесь: увеличте line-height. -->
+        <p class="content-subtitle_block_comments">Природа и люди вдохновили их работы, удостоенные наград на
+            международных
+            конкурсах</p>
+        <div class="cards">
+            <div class="cards__item">
+                <img src="images/lyagushkin.jpg" alt="Лягушкин" class="cards__image">
+                <p class="cards__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
+                    “наружу”…»</p>
+                <p class="cards__quote-author">Виктор Лягушкин</p>
+            </div>
+            <div class="cards__item">
+                <img src="images/hafizov.jpg" alt="Хафизов" class="cards__image">
+                <p class="cards__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
+                    фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью,
+                    рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+                <p class="cards__quote-author">Иван Хафизов</p>
+            </div>
+            <div class="cards__item">
+                <img src="images/maksimshin.jpg" alt="Максимишин" class="cards__image">
+                <p class="cards__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь,
+                    как им плохо, то ты сволочь и всё очернил.»</p>
+                <p class="cards__quote-author">Сергей Максимишин</p>
+            </div>
+        </div>
+    </section>
+    <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <!-- может надо добавить и затемнение текста-->
+        <h3 class="content-title_block_cover">До Байкала «на собаках»</h3>
+        <p class="content-subtitle_block_cover">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
+            до Байкала
+            на электричках.</p>
+    </a>
+    <section class="emblem">
+        <!-- Надо исправить:
                 Лишний симваол: "-" (прочерк)
             -->
-            <h4 class="content-title_block_emblem">Природа на гербах
-                российских городов</h4>
-                <!-- Можно лучше: Не последовательный тег H (Должен быть h2) -->
-            
-            <div class="emblem__items">
-                <div class="emblem__item">
-                    <img src="images/novgorod.png" alt="эмблема" class="emblem__item-img">
-                    <p class="emblem__item-title">Великий Новгород</p>
-                </div>
-                <div class="emblem__item">
-                    <img src="images/rostov.png" alt="эмблема" class="emblem__item-img">
-                    <p class="emblem__item-title">Ростов Великий</p>
-                </div>
-                <div class="emblem__item">
-                    <img src="images/tambov.png" alt="эмблема" class="emblem__item-img">
-                    <p class="emblem__item-title">Тамбов</p>
-                </div>
-                <div class="emblem__item">
-                    <img src="images/elabuga.png" alt="эмблема" class="emblem__item-img">
-                    <p class="emblem__item-title">Елабуга</p>
-                </div>
-                <div class="emblem__item">
-                    <img src="images/perm.png" alt="эмблема" class="emblem__item-img">
-                    <p class="emblem__item-title">Пермь</p>
-                </div>
+        <h2 class="content-title_block_emblem">Природа на гербах
+            российских городов</h2>
+        <!-- Можно лучше: Не последовательный тег H (Должен быть h2) -->
 
+        <div class="emblem__items">
+            <div class="emblem__item">
+                <img src="images/novgorod.png" alt="эмблема" class="emblem__item-img">
+                <p class="emblem__item-title">Великий Новгород</p>
             </div>
-        </section>
-        <section class="barentsburg">
-            <h4 class="content-title_block_barentsburg">Баренцбург</h4>
-<!-- Надо исправить:
+            <div class="emblem__item">
+                <img src="images/rostov.png" alt="эмблема" class="emblem__item-img">
+                <p class="emblem__item-title">Ростов Великий</p>
+            </div>
+            <div class="emblem__item">
+                <img src="images/tambov.png" alt="эмблема" class="emblem__item-img">
+                <p class="emblem__item-title">Тамбов</p>
+            </div>
+            <div class="emblem__item">
+                <img src="images/elabuga.png" alt="эмблема" class="emblem__item-img">
+                <p class="emblem__item-title">Елабуга</p>
+            </div>
+            <div class="emblem__item">
+                <img src="images/perm.png" alt="эмблема" class="emblem__item-img">
+                <p class="emblem__item-title">Пермь</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="barentsburg">
+        <h2 class="content-title_block_barentsburg">Баренцбург</h2>
+        <!-- Надо исправить:
     Неправильно (не семантично) указывать здесь Тег h4, так как h4 может идти только под заголовком h3 (при условии, что он по смыслу относится к этому h3 заголовку). В данном случае, родительский заголовок по смыслу: 
     <h1 class="content-title_block_lead">Путешествия по России</h1>
     Значит его дочерние заголовки h2.
 -->
-            <p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
-            <img src="images/map.jpg" alt="Карта." class="barentsburg__img">
-            <div class="barentsburg__columns">
-                <p class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного
-                    российского посёлка, который находится на Шпицбергене.</p>
-                <div class="barentsburg__text-column">
-                    <p class="barentsburg__url">URL</p>
-                    <a href="https://meduza.io/feature/2016/03/02/umeret-ili-roditsya-zdes-prakticheski-nevozmozhno"
-                        class="barentsburg__link link">Умереть или родиться здесь практически невозможно </a>
-                </div>
+        <p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
+        <img src="images/map.jpg" alt="Карта." class="barentsburg__img">
+        <div class="barentsburg__columns">
+            <p class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного
+                российского посёлка, который находится на Шпицбергене.</p>
+            <div class="barentsburg__text-column">
+                <p class="barentsburg__url">URL</p>
+                <a href="https://meduza.io/feature/2016/03/02/umeret-ili-roditsya-zdes-prakticheski-nevozmozhno"
+                    class="barentsburg__link link">Умереть или родиться здесь практически невозможно </a>
             </div>
-        </section>
-        <footer class="footer">
-            <ul class="footer__links">
-                <li><a class="footer__link link" href="https://yandex.ru/maps/">Карты</a></li>
-                <li><a class="footer__link link" href="https://yandex.ru/pogoda/">Погода</a></li>
-                <li><a class="footer__link link" href="https://rasp.yandex.ru/">Расписание</a></li>
-                <li><a class="footer__link link" href="https://calendar.yandex.ru/">Календарь</a></li>
-                <li><a class="footer__link link" href="https://travel.yandex.ru">Путешествия</a></li>
-            </ul>
-            <p class="footer__copywrite">© 2020. Ирина Бельчикова</p>
-            <!--Надо исправить:
+        </div>
+    </section>
+    <footer class="footer">
+        <ul class="footer__links">
+            <li><a class="footer__link link" href="https://yandex.ru/maps/">Карты</a></li>
+            <li><a class="footer__link link" href="https://yandex.ru/pogoda/">Погода</a></li>
+            <li><a class="footer__link link" href="https://rasp.yandex.ru/">Расписание</a></li>
+            <li><a class="footer__link link" href="https://calendar.yandex.ru/">Календарь</a></li>
+            <li><a class="footer__link link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
+        <p class="footer__copywrite">© 2020. Ирина Бельчикова</p>
+        <!--Надо исправить:
                 Ссылки меню и копирайт не на одной линии.
                 Сверьтесь с макетом.
             -->
 
-        </footer>
-    </body>
+    </footer>
+</body>
 
 
 

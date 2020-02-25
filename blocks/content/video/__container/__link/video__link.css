@@ -1,6 +1,6 @@
 @import url('./__item/video__item.css');
-@import url('./__item/_picture/_kamchatka/item_picture_kamchatka.css');
-@import url('./__item/_picture/_observary/item_picture_observary.css');
+@import url('./__item/_picture/_kamchatka/video__item_picture_kamchatka.css');
+@import url('./__item/_picture/_observary/video__item_picture_observary.css');
 
 
 .video__link {
