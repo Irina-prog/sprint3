@@ -1,8 +1,11 @@
-@import url('./__column-photo/place__column-photo.css');
-@import url('./__column-details/place__column-details.css');
+@import url('../../../content-title/_block/_place/content-title_block_place.css  ');
+@import url('./__description-set/place__description.css');
+@import url('./__img/place__img.css');
+@import url('./__url-set/place__url-set.css');
 .place {
-    display: flex;
+    display: grid;
     width: 984px;
-    flex-direction: row;
     margin: 72px auto 0;
+    grid-template-columns: 460px 484px;
+    grid-gap: 60px 40px;
 }
