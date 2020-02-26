@@ -24,4 +24,5 @@
 }
 .additional__item:hover:before {
     opacity: 0.3;
+    transition: opacity 0.5s ease-out;
 }
