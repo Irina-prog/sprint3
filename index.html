@@ -47,6 +47,7 @@
             Основное содержимое сайта должно быть вложено в элемент main.
             Подробнее об элементе: http://htmlbook.ru/html/main
         -->
+    <main class="main">
     <section class="lead">
         <h1 class="content-title content-title_block_lead">Путешествия по России</h1>
         <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
@@ -126,7 +127,7 @@
         <section class="place">
 
             <div class="place__column-photo">
-                <h2 class="content-title_block_place">Куршская коса</h2>
+                <h2 class="content-title content-title_block_place">Куршская коса</h2>
                 <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
                 <img src="images/kosa.jpg" alt="Куршская коса" class="place__img">
             </div>
@@ -148,7 +149,7 @@
         </section>
         <section class="place">
             <div class="place__column-photo">
-                <h2 class="content-title_block_place">Кольский</h2>
+                <h2 class="content-title content-title_block_place">Кольский</h2>
                 <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
                 <!-- Надо исправить во всему проэкту, по аналогии -->
                 <img src="images/kolsky.jpg" alt="Кольский" class="place__img">
@@ -169,7 +170,7 @@
         </section>
         <section class="place">
             <div class="place__column-photo">
-                <h2 class="content-title_block_place">Алтай</h2>
+                <h2 class="content-title content-title_block_place">Алтай</h2>
                 <img src="images/altai.jpg" alt="Алтай" class="place__img">
             </div>
             <div class="place__column-details">
@@ -188,7 +189,7 @@
         </section>
         <section class="place">
             <div class="place__column-photo">
-                <h2 class="content-title_block_place">Зимний Байкал</h2>
+                <h2 class="content-title content-title_block_place">Зимний Байкал</h2>
                 <img src="images/winter-baikal.jpg" alt="Зимний Байкал" class="place__img">
             </div>
             <div class="place__column-details">
@@ -205,7 +206,7 @@
         </section>
         <section class="place">
             <div class="place__column-photo">
-                <h2 class="content-title_block_place">Карелия</h2>
+                <h2 class="content-title content-title_block_place">Карелия</h2>
                 <img src="images/karelia.jpg" alt="Карелия" class="place__img">
             </div>
             <div class="place__column-details">
@@ -222,8 +223,8 @@
         </section>
     </div>
     <section class="video">
-        <h2 class="content-title_block_video">В глубины Земли и в дальний космос</h2>
-        <p class="content-subtitle_block_video">Видео от студии Stereotactic о местах в России, где ведутся
+        <h2 class="content-title content-title_block_video">В глубины Земли и в дальний космос</h2>
+        <p class="content-subtitle content-subtitle_block_video">Видео от студии Stereotactic о местах в России, где ведутся
             фундаментальные
             исследования</p>
         <div class="video__container">
@@ -254,8 +255,8 @@
         </div>
     </section>
     <section class="additional">
-        <h2 class="content-title_block_additional">А также</h2>
-        <p class="content-subtitle_block_additional">места, рекомендованные нашими фотографами</p>
+        <h2 class="content-title content-title_block_additional">А также</h2>
+        <p class="content-subtitle content-subtitle_block_additional">места, рекомендованные нашими фотографами</p>
         <div class="additional__container">
             <div class="additional__item additional__item_bg_nvrssk ">
                 <div class="additional__item-title">Новороссийская бухта</div>
@@ -280,10 +281,10 @@
         </div>
     </section>
     <section class="comments">
-        <h2 class="content-title_block_comments">Фотографы, снимающие Россию</h2>
+        <h2 class="content-title content-title_block_comments">Фотографы, снимающие Россию</h2>
         <!-- ф встала на р -->
         <!-- Что бы это поправить воспользуйтесь: увеличте line-height. -->
-        <p class="content-subtitle_block_comments">Природа и люди вдохновили их работы, удостоенные наград на
+        <p class="content-subtitle content-subtitle_block_comments">Природа и люди вдохновили их работы, удостоенные наград на
             международных
             конкурсах</p>
         <div class="cards">
@@ -310,8 +311,8 @@
     </section>
     <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
         <!-- может надо добавить и затемнение текста-->
-        <h3 class="content-title_block_cover">До Байкала «на собаках»</h3>
-        <p class="content-subtitle_block_cover">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
+        <h3 class="content-title content-title_block_cover">До Байкала «на собаках»</h3>
+        <p class="content-subtitle content-subtitle_block_cover">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
             до Байкала
             на электричках.</p>
     </a>
@@ -319,7 +320,7 @@
         <!-- Надо исправить:
                 Лишний симваол: "-" (прочерк)
             -->
-        <h2 class="content-title_block_emblem">Природа на гербах
+        <h2 class="content-title content-title_block_emblem">Природа на гербах
             российских городов</h2>
         <!-- Можно лучше: Не последовательный тег H (Должен быть h2) -->
 
@@ -348,7 +349,7 @@
         </div>
     </section>
     <section class="barentsburg">
-        <h2 class="content-title_block_barentsburg">Баренцбург</h2>
+        <h2 class="content-title content-title_block_barentsburg">Баренцбург</h2>
         <!-- Надо исправить:
     Неправильно (не семантично) указывать здесь Тег h4, так как h4 может идти только под заголовком h3 (при условии, что он по смыслу относится к этому h3 заголовку). В данном случае, родительский заголовок по смыслу: 
     <h1 class="content-title_block_lead">Путешествия по России</h1>
@@ -366,6 +367,7 @@
             </div>
         </div>
     </section>
+</main>
     <footer class="footer">
         <ul class="footer__links">
             <li><a class="footer__link link" href="https://yandex.ru/maps/">Карты</a></li>
