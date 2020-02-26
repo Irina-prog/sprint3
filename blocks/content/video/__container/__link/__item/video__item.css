@@ -9,16 +9,19 @@
 
 
 .video__item {
+    padding-left: 30px;
+    padding-top: 30px;
     background-size: cover;
     width: 583px;
     height: 323px;
+    position: relative;
     
 }
 .video__item::before {
     position: absolute;
     background-size: cover;
     top: 0;
-    bottom: 0;
+    left: 0;
     width: 583px;
     height: 323px;
     content: "";
