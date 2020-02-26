@@ -13,7 +13,7 @@
 .content {
     background: #2A2C2F;
     margin: 0 auto 0;
-    font-family: Inter;
+    font-family: Inter, Arial, sans-serif;
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
