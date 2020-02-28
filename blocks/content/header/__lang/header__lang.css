@@ -5,8 +5,5 @@
     height: 23px;
     display: flex;
     flex-direction: row;
-    margin-top: 47px;
     justify-content: space-between;
-    margin-right: 48px;
-    align-self: flex-start;
 }
