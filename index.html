@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-<!--+Надо исправить:
-    Язык документа: русский.
--->
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
-    <!--+Надо исправить:
-        Язык документа: русский. Поэтому title должен быть на русском и иметь осмысленное содержание отражающий название страницы.
-    -->
+
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
@@ -24,51 +20,36 @@
             <a class="header__lang-element link" href="#">En</a>
         </div>
     </header>
-    <!--Можно лучше:
-            Блок header и его элементы спозиционированны с помощью margin. Это не правильный подход, так как усложнит задачу при адаптации сайта под мобильные устройства.
+    <!--Можно ещё лучше:
+            Элементы блока header спозиционированны с помощью margin. Это не правильный подход, так как усложнит задачу при адаптации сайта под мобильные устройства.
             
-            Попробуйте использовать больше возможностей flex для блока .header: такие как "justify-content:", "align-items:". При этому максимально убрав эти конструкции:
+            Попробуйте задать высоту блоку header (min-height: 82px;). Это позволит разместить элементы по вертикально по центру, без использования margin.
 
-                .header__logo {
-                    margin-top: 30px;
-                    margin-left: 48px;
-                    margin-right: 929.42px;
-                }
-
-                .header__lang {
-                    margin-top: 47px;
-                }
+            Что бы избавится от margin-left и margin-right задайте ширину блоку header (min-width: 1184px;)
             
             Информация по flex-box
             Попробуйте пройти игру про Flex: http://flexboxfroggy.com/#ru
         -->
 
-    <!--Надо исправить:
-            Основное содержимое сайта должно быть вложено в элемент main.
-            Подробнее об элементе: http://htmlbook.ru/html/main
-        -->
     <main class="main">
     <section class="lead">
         <h1 class="content-title content-title_block_lead">Путешествия по России</h1>
-        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
+
 
         <p class="content-subtitle content-subtitle_block_lead">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
 
         <div class="lead__section">
             <img src="images/polka.jpg" alt="женщина спит в поезде" class="lead__image">
             <p class="lead__capture">ваша полка — верхняя</p>
-            <!--Отлично:
-                    Использован "text-transform: uppercase", вместо CAPS LOCK'a. Хорошая практика.
-                -->
+
 
         </div>
     </section>
     <section class="intro">
         <h3 class="content-title content-title_block_intro">Чего мы там не видели?</h3>
-        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
+
         <p class="content-subtitle content-subtitle_block_intro">Зачем путешествовать по своему дому</p>
-        <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
+
         <div class="intro__content-row">
             <p class="intro__description">
                 По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в
@@ -89,7 +70,14 @@
         <ul class="intro__infa">
             <li><span class="intro_theme_bold"></span>Часовых поясов 11</li>
             <!--Надо исправить:
-                    Несоответствие макету. Цифры не имеют жирного начертания.
+
+                    <span class="intro_theme_bold"></span>Часовых поясов 11
+                    
+                    ->                    
+                    
+                    <span class="intro_theme_bold">Часовых поясов</span> 11
+                    
+                    Несоответствие макету. Цифры не имеют жирного начертания. (пропустили первую строку "Часовых поясов 11")
                 -->
             <li><span class="intro_theme_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
             <li><span class="intro_theme_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
@@ -98,9 +86,7 @@
         </ul>
     </section>
     <div class="photo-grid">
-        <!--Можно лучше: валидатор "ругается" (Warning) на отсутствие заголовка у этой секции.
-                Так как заголовка по макету здесь нет - лучше использовать div, а не section.
-        -->
+
         <img src="images/train.jpg" alt="поезд" class="photo-grid__card">
         <img src="images/atharva-tulsi.jpg" alt="гора" class="photo-grid__card">
         <img src="images/tuman.jpg" alt="туман" class="photo-grid__card">
@@ -114,24 +100,17 @@
         <img src="images/baikal-2.jpg" alt="байкал и гора" class="photo-grid__card">
         <img src="images/ergaki.jpg" alt="туман в горах" class="photo-grid__card">
     </div>
-    <!--Отлично:
-            Гриды в photo-grid очень к месту.
-        -->
 
     <div class="places">
-        <!--Можно лучше: валидатор "ругается" (Warning) на отсутствие заголовка у этой секции.
-                Так как заголовка здесь нет - лучше использовать div, а не section.
-        -->
-        <!--Можно лучше: Нет отсупа (табуляции) у вложенных (в .places) элементов section-->
+
         <section class="place">
                 <h2 class="content-title content-title_block_place">Куршская коса</h2>
-                <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
+
                 <div class="place__url-set">
                     <p class="place__url">URL</p>
                     <a class="place__website link" href="https://park-kosa.ru">park-kosa.ru</a>
                 </div>
-                <!-- Надо исправить:
-                    Сверьтись с макетом.-->
+                
                 <img src="images/kosa.jpg" alt="Куршская коса" class="place__img">
             
                 <div class="place__description-set">
@@ -146,8 +125,7 @@
         </section>
         <section class="place">
             <h2 class="content-title content-title_block_place">Кольский</h2>
-                <!--Надо исправить: БЭМ сущность содержит в себе только модификатор-->
-                <!-- Надо исправить во всему проэкту, по аналогии -->
+
             <div class="place__url-set">
                 <p class="place__url">URL</p>
                 <a class="place__website place__text link"
@@ -230,13 +208,10 @@
         <div class="video__container">
             <a href="https://vimeo.com/81106671" class=video__link>
                 <div class="video__item video__item_picture_kamchatka">
-                    <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
+
                     <div class="video__icon video__icon_type_play"></div>
                     <p class="video__duration">6:30</p>
                     <p class="video__title">Colors of Kamchatka </p>
-                    <!--Надо исправить:
-                            Несоответствие макету. Заголовки должны быть в 2 строки.
-                        -->
 
                     <p class="video__subtitle">Director: Pavel Karykhalin</p>
 
@@ -244,7 +219,7 @@
             </a>
             <a href="https://vimeo.com/290675450" class=video__link>
                 <div class="video__item video__item_picture_observary">
-                    <!--Надо исправить: БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор. Документация по БЭМ: https://tech.yandex.ru/bem/-->
+
                     <div class="video__icon video__icon_type_play"></div>
                     <p class="video__duration">24:45</p>
                     <p class="video__title">Обсерватория | Observatory </p>
@@ -282,8 +257,6 @@
     </section>
     <section class="comments">
         <h2 class="content-title content-title_block_comments">Фотографы, снимающие Россию</h2>
-        <!-- ф встала на р -->
-        <!-- Что бы это поправить воспользуйтесь: увеличте line-height. -->
         <p class="content-subtitle content-subtitle_block_comments">Природа и люди вдохновили их работы, удостоенные наград на
             международных
             конкурсах</p>
@@ -311,18 +284,16 @@
     </section>
     <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
         <!-- может надо добавить и затемнение текста-->
+        <!-- Ответ: не нужно -->
         <h3 class="content-title content-title_block_cover">До Байкала «на собаках»</h3>
         <p class="content-subtitle content-subtitle_block_cover">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
             до Байкала
             на электричках.</p>
     </a>
     <section class="emblem">
-        <!-- Надо исправить:
-                Лишний симваол: "-" (прочерк)
-            -->
+
         <h2 class="content-title content-title_block_emblem">Природа на гербах
             российских городов</h2>
-        <!-- Можно лучше: Не последовательный тег H (Должен быть h2) -->
 
         <div class="emblem__items">
             <div class="emblem__item">
@@ -350,11 +321,7 @@
     </section>
     <section class="barentsburg">
         <h2 class="content-title content-title_block_barentsburg">Баренцбург</h2>
-        <!-- Надо исправить:
-    Неправильно (не семантично) указывать здесь Тег h4, так как h4 может идти только под заголовком h3 (при условии, что он по смыслу относится к этому h3 заголовку). В данном случае, родительский заголовок по смыслу: 
-    <h1 class="content-title_block_lead">Путешествия по России</h1>
-    Значит его дочерние заголовки h2.
--->
+
         <p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
         <img src="images/map.jpg" alt="Карта." class="barentsburg__img">
         <div class="barentsburg__columns">
@@ -377,10 +344,6 @@
             <li><a class="footer__link link" href="https://travel.yandex.ru">Путешествия</a></li>
         </ul>
         <p class="footer__copywrite">© 2020. Ирина Бельчикова</p>
-        <!--Надо исправить:
-                Ссылки меню и копирайт не на одной линии.
-                Сверьтесь с макетом.
-            -->
 
     </footer>
 </body>
@@ -391,27 +354,13 @@
 
 <!--В целом по работе:
     
-    Отлично! Понравилось в работе:
+    Супер! Осталось немного.
 
-    для всех изображений прописан alt
-    стили и картинки в самостоятельных папках
-    для логотипа и иконок использован вектроный формат изображений
-    контент центрируется на большом экране
+    Радует, что исправляете не только важные ошибки, но и страйтесь сделать лучше.
 
-    
-    Надо исправить:
-
-        Используется font-family: Inter, это является не совсем корректным решением. В том случае, если по какой-либо причине, например, шрифты не загрузятся или будет использоваться браузер, не поддерживающий современные расширения формата, следует предусмотреть такой исход и один или несколько из системных шрифтов. Используйте font-family: 'Inter', Arial, sans-serif;
-
-        Координаты для абсолютно спозиционированных элементов должны быть заданы не менее чем по двум осям
-
-        "БЭМ сущность содержит в себе только модификатор. Класс представлен одним модификатором, образованным от элемента. Пример работы с модификаторами: class='block block_mod block_mod_mod-value', где block - блок или элемент (block__element-name_mod). _mod - модификатор блока _mod_mod-value - сложный модификатор, где _mod-value - значение сложного модификатора. Сейчас нету блока от которого можно было бы использовать модификатор."
-        Найдите и исправьте все ошибки связанные с этой проблемой.
-        Документация по БЭМ: https://tech.yandex.ru/bem/
+    Для зачёта исправьте "Надо исправить" в коде.
 
     Можно улучшить:
-        Добавьте transition для интерактивных элементов
-        https://developer.mozilla.org/ru/docs/Web/CSS/transition
 
         Распределите стилевые файлы в соответствии с файловой структурой БЭМ https://ru.bem.info/methodology/filestructure/
 -->
