@@ -2,8 +2,21 @@
 .cards {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 382px);
+    /*grid-template-columns: repeat(3, 382px);*/
     grid-row-gap: 19px;
     grid-column-gap: 19px;
-    width: 1184px;
+    /*width: 1184px;*/
+    justify-content: center;
+}
+
+@media screen and (min-width : 1280px) {
+    .cards {
+        grid-template-columns: repeat(3, 382px);
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .cards {
+        grid-template-columns: repeat(3, 296px);
+    }
 }
