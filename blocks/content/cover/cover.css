@@ -2,7 +2,7 @@
 @import url('../../content-subtitle/_block/_cover/content-subtitle_block_cover.css');
 .cover {
     display: block;
-    width: 1184px;
+   /* width: 1184px;*/
     height: 594px;
     margin: 102px auto 82px;
     text-align: center;
@@ -14,7 +14,7 @@
     background-image: url(../../../images/cover.jpg);
     background-size: cover;
     position: absolute;
-    width: 1184px;
+    /*width: 1184px;*/
     height: 594px;
     left: 0;
     right: 0;
@@ -27,4 +27,22 @@
 .cover:hover:before {
     opacity: 0.3;
     transition: opacity 0.5s ease-out;
+}
+
+@media screen and (min-width : 1280px) {
+    .cover {
+        width: 1184px;
+    }
+    .cover::before  {
+        width: 1184px;
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .cover {
+        width: 100%;
+    }
+    .cover::before  {
+        width: 100%;
+    }
 }
