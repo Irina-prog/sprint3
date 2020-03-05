@@ -6,4 +6,26 @@
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@media screen and (min-width : 1440px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+}
+@media screen and (min-width : 426px) and (max-width : 768px) {
+    /* стили для планшета */
+}
+@media screen and (max-width : 425px) {
+    /* стили для широкого смартфона */
 }

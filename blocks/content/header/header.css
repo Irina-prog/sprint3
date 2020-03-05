@@ -2,8 +2,7 @@
 @import url('./__lang/header__lang.css');
 
 .header {
-    min-width: 1184px;
-    max-width: 1344px;
+    
     display: flex;
     flex-direction: row;
     margin: 30px auto 0;
@@ -11,4 +10,17 @@
     min-height: 52px;
     align-items: baseline;
     
+}
+
+@media screen and (min-width : 1440px) {
+    .header {
+        padding: 0 128px 0;
+    }
+    /* стили для больших настольных компьютеров и ноутбуков */
+}
+@media screen and (min-width : 1024px) and (max-width :1439px) {
+    .header {
+        padding: 0 48px 0;
+    }
+    /* стили для планшета */
 }

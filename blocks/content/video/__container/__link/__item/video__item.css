@@ -12,8 +12,8 @@
     padding-left: 30px;
     padding-top: 30px;
     background-size: cover;
-    width: 583px;
-    height: 323px;
+    /*width: 583px;*/
+    /*height: 323px;*/
     position: relative;
     
 }
@@ -22,8 +22,8 @@
     background-size: cover;
     top: 0;
     left: 0;
-    width: 583px;
-    height: 323px;
+    /*width: 583px;
+    height: 323px;*/
     content: "";
     z-index: -1;
     opacity: 0.8;
@@ -32,4 +32,25 @@
 .video__item:hover:before {
     transition: opacity 0.5s ease-out;
     opacity: 0.3;
+}
+@media screen and (min-width : 1280px) {
+    .video__item {
+        width: 583px;
+        height: 323px;
+    }
+    .video__item::before {
+        width: 583px;
+        height: 323px;
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .video__item {
+        width: 456px;
+        height: 288px;
+    }
+    .video__item::before {
+        width: 456px;
+        height: 288px;
+    }
 }

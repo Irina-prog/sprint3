@@ -1,10 +1,23 @@
 @import url('./__link/video__link.css');
 
 .video__container {
-    width: 1184px;
+   /* width: 1184px;*/
     margin: 0 auto 0;
     display: grid;
-    grid-template-columns: repeat(2, 583px);
+    /*grid-template-columns: repeat(2, 583px);*/
     grid-column-gap: 18px;
     position: relative;
+    justify-content: center;
+}
+
+@media screen and (min-width : 1280px) {
+    .video__container {
+        grid-template-columns: repeat(2, 583px);
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .video__container {
+        grid-template-columns: repeat(2, 456px);
+    }
 }

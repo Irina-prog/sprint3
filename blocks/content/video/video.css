@@ -3,6 +3,6 @@
 @import url('./__container/video__container.css');
 
 .video {
-    width: 1184px;
+   /* width: 1184px;*/
     margin: 102px auto 0;
 }
