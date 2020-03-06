@@ -21,11 +21,27 @@ html {
 }
 
 @media screen and (min-width : 1440px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
+    .content {
+        max-width: 1440px;
+    }
 }
-@media screen and (min-width : 426px) and (max-width : 768px) {
+@media screen and (min-width : 1280px) and (max-width : 1439px) {
+    .content {
+        max-width: 1439px;
+        min-width: 1280px;
+        width:100%;
+    }
     /* стили для планшета */
 }
+@media screen and (min-width :  1024px) and (max-width : 1279px) {
+    .content {
+        max-width: 1279px;
+        min-width: 1024px;
+        width:100%;
+    }
+    /* стили для планшета */
+}
+
 @media screen and (max-width : 425px) {
     /* стили для широкого смартфона */
 }
