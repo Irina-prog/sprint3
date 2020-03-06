@@ -8,6 +8,14 @@
     /*width: 1184px;*/
     justify-content: center;
 }
+@media screen and (min-width : 768px) and (max-width :1023px) {
+    .cards {
+        grid-template-rows: repeat(3, auto);
+        padding: 0 25%;
+        grid-row-gap: 47px;
+    }
+    /* стили для планшета */
+}
 
 @media screen and (min-width : 1280px) {
     .cards {
@@ -18,5 +26,6 @@
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
     .cards {
         grid-template-columns: repeat(3, 296px);
+        grid-column-gap: 22px;
     }
 }

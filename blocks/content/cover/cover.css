@@ -15,7 +15,7 @@
     background-size: cover;
     position: absolute;
     /*width: 1184px;*/
-    height: 594px;
+
     left: 0;
     right: 0;
     content: "";
@@ -29,20 +29,37 @@
     transition: opacity 0.5s ease-out;
 }
 
-@media screen and (min-width : 1280px) {
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
     .cover {
-        width: 1184px;
+        width: 100%;
+        height: 500px;
     }
     .cover::before  {
-        width: 1184px;
+        width: 100%;
+        height: 500px;
     }
 }
+
 
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
     .cover {
         width: 100%;
+        height: 562px;
     }
     .cover::before  {
         width: 100%;
+        height: 562px;
+    }
+}
+
+@media screen and (min-width : 1280px) {
+    .cover {
+        width: 1184px;
+        height: 594px;
+    }
+    .cover::before  {
+        width: 1184px;
+        height: 594px;
     }
 }

@@ -6,3 +6,9 @@
     padding-top: 274px;
     color: #FFFDFD
 }
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .content-title_block_cover {
+       padding-top: 165px; 
+    }
+}
