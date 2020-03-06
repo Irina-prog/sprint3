@@ -2,8 +2,16 @@
 
 .video__icon {
     
-    
     width: 41px;
     height:41px;
+    align-self: flex-start;
 
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .video__icon {
+        align-content: flex-start;
+        align-self: flex-start;
+    
+    } 
 }

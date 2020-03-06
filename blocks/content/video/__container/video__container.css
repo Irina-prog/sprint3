@@ -10,6 +10,12 @@
     justify-content: center;
 }
 
+@media screen and (min-width : 756px) and (max-width : 1023px) {
+    .video__container {
+        grid-template-columns: repeat(2, 352px);
+    }
+}
+
 @media screen and (min-width : 1280px) {
     .video__container {
         grid-template-columns: repeat(2, 583px);
