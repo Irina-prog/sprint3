@@ -43,7 +43,8 @@
         align-content: flex-end;
         flex-direction: column;
         padding: 24px;
-        align-items: flex-start;
+        justify-content: flex-end;
+        /*align-items: flex-start;*/
     }
     .video__item::before {
         width: 352px;
