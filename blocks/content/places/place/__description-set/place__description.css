@@ -3,6 +3,9 @@
     font-size: 18px;
     line-height: 30px;
 }
+.place__description:last-of-type {
+    margin-bottom: 0;
+}
 @media screen and (min-width : 768px) and (max-width : 1023px) {
     .place__description {
         font-size: 16px;
