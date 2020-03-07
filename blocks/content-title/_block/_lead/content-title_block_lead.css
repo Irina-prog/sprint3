@@ -5,6 +5,13 @@
     line-height: 93px;
     text-align: center;
     max-width: 782px;
-    height: 184px;
+    /*height: 184px;*/
     margin: 0 auto 0;
+}
+
+@media screen and (min-width : 320px) and (max-width : 768px){
+    .content-title_block_lead {
+        font-size: 40px;
+        line-height: 44px;
+    }
 }

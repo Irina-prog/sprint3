@@ -8,3 +8,9 @@
     font-style: normal;
     font-weight: normal;
 }
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+   .content-subtitle_block_lead {
+        margin-top: 8px;
+   }
+}
