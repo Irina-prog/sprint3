@@ -1,3 +1,9 @@
 @import url('../../content-title/_block/_comments/content-title_block_comments.css');
 @import url('../../content-subtitle/_block/_comments/content-subtitle_block_comments.css');
 @import url('./cards/cards.css');
+
+@media screen and (max-width : 767px) {
+    .comments {
+        padding: 0 16px;
+    }
+}

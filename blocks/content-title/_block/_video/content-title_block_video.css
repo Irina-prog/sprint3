@@ -13,3 +13,10 @@
         line-height: 46px;
     }
 }
+@media screen and (max-width : 767px) {
+    .content-title_block_video {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+}

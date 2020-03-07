@@ -4,4 +4,8 @@
     margin-bottom: 42px;
     border-radius: 48.5px;
 }
-
+@media screen and (max-width : 767px) {
+    .cards__image {
+        margin: 0 auto 16px;
+    }
+}
