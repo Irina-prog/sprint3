@@ -6,3 +6,11 @@
     line-height: 59px;
     margin: 0 auto 0;
 }
+@media screen and (max-width : 767px)  {
+    .content-title_block_intro {
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 32px;
+
+    }
+}

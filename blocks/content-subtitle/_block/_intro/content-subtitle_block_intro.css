@@ -5,3 +5,9 @@
     line-height: 38px;
     margin: 45px auto 35px;
 }
+@media screen and (max-width : 767px) {
+    .content-subtitle_block_intro {
+        display: none;
+        
+    }
+}

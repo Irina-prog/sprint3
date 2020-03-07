@@ -1,6 +1,6 @@
 .content-subtitle_block_lead {
     max-width: 583px;
-    height: 65px;
+    /*height: 65px;*/
     margin: 78px auto 0;
     font-size: 30px;
     line-height: 36px;
@@ -9,8 +9,11 @@
     font-weight: normal;
 }
 
-@media screen and (min-width : 320px) and (max-width : 768px) {
+@media screen and (max-width : 768px) {
    .content-subtitle_block_lead {
         margin-top: 8px;
+        font-size: 16px;
+        line-height: 23px;
+        width: 90%;
    }
 }

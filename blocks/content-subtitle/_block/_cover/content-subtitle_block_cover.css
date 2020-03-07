@@ -13,3 +13,12 @@
        margin-top: 45px; 
     }
 }
+@media screen and (max-width : 767px) {
+    .content-subtitle_block_cover {
+        margin-top: 7px;  
+        width: 90%;
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+}

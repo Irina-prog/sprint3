@@ -15,3 +15,8 @@
     }
     /* стили для планшета */
 }
+@media screen and (max-width : 767px) {
+    .lead__capture {
+        padding-left: 16px;
+    }
+}

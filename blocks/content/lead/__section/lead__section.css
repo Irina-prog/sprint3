@@ -6,6 +6,11 @@
     flex-direction: column;
     
 }
+@media screen and (max-width : 767px) {
+    .lead__section {
+        margin: 31px auto 0;
+    }
+}
 @media screen and (min-width : 1440px) {
     .lead__section {
         width: 984px;

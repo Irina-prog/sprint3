@@ -28,3 +28,9 @@
         padding: 0 23px 24px;
     }
 }
+@media screen and (max-width : 767px) {
+    .footer {
+        flex-direction: column;
+        padding-left: 16px;
+    }
+}

@@ -12,3 +12,11 @@
        padding-top: 165px; 
     }
 }
+@media screen and (max-width : 767px) {
+    .content-title_block_cover {
+        line-height: 35px;
+        padding-top: 27.73%;
+        font-size: 32px;
+
+    }
+}
