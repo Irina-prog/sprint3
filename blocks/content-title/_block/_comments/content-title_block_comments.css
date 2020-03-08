@@ -9,7 +9,7 @@
 
 @media screen and (min-width : 1024px) {
     .content-title_block_comments {
-        width: 70%;
+        width: 80%;
         font-size: 72px;
         line-height: 70px;
     }
@@ -22,7 +22,7 @@
         
     }
 }
-@media screen and (min-width : 376px) and (max-width : 768px) {
+@media screen and (min-width : 376px) and (max-width : 767px) {
     .content-title_block_comments {
         font-size: 32px;
         line-height: 35px;
