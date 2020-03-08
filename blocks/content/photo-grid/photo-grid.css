@@ -8,6 +8,12 @@
     grid-column-gap: 16px;
     justify-content: center;
 }
+/*@media screen and (max-width : 375px) {
+    .photo-grid {
+        margin-top: 64px;
+        grid-template-columns: repeat(auto-fill, 343px);
+    }
+}*/
 @media screen and (max-width : 767px) {
     .photo-grid {
         margin-top: 64px;
