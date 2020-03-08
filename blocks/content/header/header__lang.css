@@ -1,8 +1,8 @@
 @import url('./__lang-element/header__lang-element.css');
 @import url('./__lang-element/_active/header__lang-element_active.css');
 .header__lang {
-    width: 78px;
-    height: 23px;
+    /*width: 78px;
+    height: 23px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
