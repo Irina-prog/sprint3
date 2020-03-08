@@ -12,8 +12,7 @@
     padding-left: 30px;
     padding-top: 30px;
     background-size: cover;
-    /*width: 583px;*/
-    /*height: 323px;*/
+   
     position: relative;
 
     
@@ -23,8 +22,7 @@
     background-size: cover;
     top: 0;
     left: 0;
-    /*width: 583px;
-    height: 323px;*/
+    
     content: "";
     z-index: -1;
     opacity: 0.8;
@@ -62,7 +60,7 @@
         flex-direction: column;
         padding: 24px;
         justify-content: flex-end;
-        /*align-items: flex-start;*/
+        
     }
     .video__item::before {
         width: 352px;

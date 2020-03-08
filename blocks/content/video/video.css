@@ -3,7 +3,7 @@
 @import url('./__container/video__container.css');
 
 .video {
-   /* width: 1184px;*/
+   
     margin: 102px auto 0;
 }
 @media screen and (max-width : 767px) {

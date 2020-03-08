@@ -13,7 +13,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    /*overflow-x: hidden;*/
+    
 }
 img {
     height: auto;
@@ -54,7 +54,7 @@ h2 {
         min-width: 1280px;
         width:100%;
     }
-    /* стили для планшета */
+    
 }
 @media screen and (min-width :  1024px) and (max-width : 1279px) {
     .content {
@@ -62,9 +62,7 @@ h2 {
         min-width: 1024px;
         width:100%;
     }
-    /* стили для планшета */
+    
 }
 
-@media screen and (max-width : 425px) {
-    /* стили для широкого смартфона */
-}
+
