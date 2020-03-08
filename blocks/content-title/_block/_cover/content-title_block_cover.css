@@ -14,9 +14,9 @@
 }
 @media screen and (max-width : 767px) {
     .content-title_block_cover {
-        line-height: 35px;
+        line-height: calc(75px + (100vw - 768px)*0.1018);
         padding-top: 104px;
-        font-size: 32px;
+        font-size: calc(72px + (100vw - 768px)*0.1018);
 
     }
 }
