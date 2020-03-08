@@ -8,12 +8,16 @@
     /*width: 1184px;*/
     justify-content: center;
 }
-@media screen and (max-width : 767px) {
+/*@media screen and (max-width : 767px) {
     .cards {
-        /*padding: 0 16px;*/
-        grid-row-gap: 47px;
+        
+        display:flex;
+        flex-direction: column;
+        width: 49.7%;
+        
+
     }
-}
+}*/
 @media screen and (min-width : 768px) and (max-width :1023px) {
     .cards {
         grid-template-rows: repeat(3, auto);
