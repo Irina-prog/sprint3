@@ -13,3 +13,9 @@
         padding-top: 32px;
     }
 }
+
+@media screen and (min-width : 768px) {
+    .intro__infa {
+        padding-top: 24px;
+    }
+}
