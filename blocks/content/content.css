@@ -16,12 +16,14 @@
     /*overflow-x: hidden;*/
 }
 img {
-    max-width: 100%;
     height: auto;
 
 }
 html {
     box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
 }
 *, *::before, *::after {
     box-sizing: inherit;

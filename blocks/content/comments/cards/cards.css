@@ -8,15 +8,24 @@
     /*width: 1184px;*/
     justify-content: center;
 }
-@media screen and (max-width : 767px) {
+@media screen and (max-width : 375px) {
+    .cards {
+        display:flex;
+        flex-direction: column;
+        
+    }
+}
+@media screen and (min-width : 376px) and (max-width : 767px) {
     .cards {
         
         display:flex;
         flex-direction: column;
         /*max-width: 90%;*/
-        padding: 0 16px;
+        
         /*min-width: 382px;*/
-        width: calc(343px + (100% - 375px)*0.09);
+        /*width: calc(343px + (100% - 375px)*0.09);*/
+        padding:  0 calc(16px + (100% - 375px)*0.4504);
+        
         
 
     }
