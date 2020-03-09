@@ -1,5 +1,5 @@
 @import url('../../../../content-title/_block/_intro/content-title_block_intro.css');
-@import url('../../../../content-subtitle/_block/_intro/content-subtitle_block_intro.css');
+
 @import url('./__description/intro__description.css');
 @import url('./__infa/intro__infa.css');
 .intro {
@@ -9,7 +9,20 @@
 
 @media screen and (min-width : 768px) and (max-width :1023px) {
     .intro {
-        padding: 0 24px 0;
+        padding-left: 24px;
+        padding-right: 24px;
     }
     
+}
+@media screen and (max-width : 767px) {
+    .intro {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .intro {
+        padding-top: 64px;
+    }
 }

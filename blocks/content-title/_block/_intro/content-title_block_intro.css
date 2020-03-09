@@ -4,13 +4,13 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 59px;
-    margin: 0 auto 0;
+    margin: 0 auto 48px;
 }
 @media screen and (max-width : 767px)  {
     .content-title_block_intro {
         font-size: 32px;
         line-height: 35px;
-        padding-bottom: 32px;
+        margin-bottom: 32px;
 
     }
 }
