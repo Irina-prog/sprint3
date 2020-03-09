@@ -13,9 +13,14 @@
         max-width: 375px;
     }
 }
-@media screen and (max-width : 767px) {
-    .lead__section {
+@media screen and (max-width : 375px) {
+     .lead__section {
         margin: 31px auto 0;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .lead__section {
+        margin-top: calc(31px + (100vw - 375px)*0.1196);
     }
 }
 @media screen and (min-width : 1024px) and (max-width :1279px) {
