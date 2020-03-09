@@ -22,6 +22,8 @@
     background-size: cover;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     
     content: "";
     z-index: -1;
@@ -43,11 +45,7 @@
         justify-content: flex-end;
         
     }
-    .video__item::before {
-        width: 288px;
-        height: 192px;
-        padding: 16px;
-    }
+    
 
     
 }
@@ -62,11 +60,7 @@
         justify-content: flex-end;
         
     }
-    .video__item::before {
-        width: 352px;
-        height: 200px;
-        padding: 24px;
-    }
+    
 }
 
 @media screen and (min-width : 1280px) {
@@ -74,10 +68,7 @@
         width: 583px;
         height: 323px;
     }
-    .video__item::before {
-        width: 583px;
-        height: 323px;
-    }
+    
 }
 
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
@@ -85,8 +76,5 @@
         width: 456px;
         height: 288px;
     }
-    .video__item::before {
-        width: 456px;
-        height: 288px;
-    }
+    
 }

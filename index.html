@@ -21,16 +21,7 @@
             <a class="header__lang-element link" href="#">En</a>
         </div>
     </header>
-    <!--Можно ещё лучше:
-            Элементы блока header спозиционированны с помощью margin. Это не правильный подход, так как усложнит задачу при адаптации сайта под мобильные устройства.
-            
-            Попробуйте задать высоту блоку header (min-height: 82px;). Это позволит разместить элементы по вертикально по центру, без использования margin.
-
-            Что бы избавится от margin-left и margin-right задайте ширину блоку header (min-width: 1184px;)
-            
-            Информация по flex-box
-            Попробуйте пройти игру про Flex: http://flexboxfroggy.com/#ru
-        -->
+   
 
     <main class="main">
     <section class="lead">
@@ -63,16 +54,7 @@
                
                 <ul class="intro__infa">
                     <li><span class="intro_theme_bold">Часовых поясов</span> 11</li>
-                    <!--Надо исправить:
-        
-                            <span class="intro_theme_bold"></span>Часовых поясов 11
-                            
-                            ->                    
-                            
-                            <span class="intro_theme_bold">Часовых поясов</span> 11
-                            
-                            Несоответствие макету. Цифры не имеют жирного начертания. (пропустили первую строку "Часовых поясов 11")
-                        -->
+                    
                     <li><span class="intro_theme_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
                     <li><span class="intro_theme_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
                     <li><span class="intro_theme_bold">Природных заповедников</span> 105</li>
@@ -103,7 +85,7 @@
     <div class="places">
 
         <section class="place">
-                <h2 class="content-title content-title_block_place">Куршская коса</h2> <!--нужно чтоб перенеслось на 2 строчки при 768px-->
+                <h2 class="content-title content-title_block_place">Куршская коса</h2> 
 
                 <div class="place__url-set">
                     <p class="place__url">URL</p>
@@ -257,8 +239,7 @@
         </div>
     </section>
     <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-        <!-- может надо добавить и затемнение текста-->
-        <!-- Ответ: не нужно -->
+       
         <h2 class="content-title content-title_block_cover">До Байкала «на&nbspсобаках»</h2>
         <p class="content-subtitle content-subtitle_block_cover">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
             до Байкала
@@ -283,15 +264,3 @@
 
 </html>
 
-<!--В целом по работе:
-    
-    Супер! Осталось немного.
-
-    Радует, что исправляете не только важные ошибки, но и страйтесь сделать лучше.
-
-    Для зачёта исправьте "Надо исправить" в коде.
-
-    Можно улучшить:
-
-        Распределите стилевые файлы в соответствии с файловой структурой БЭМ https://ru.bem.info/methodology/filestructure/
--->
