@@ -1,6 +1,6 @@
 @import url('./__image/lead__image.css');
 @import url('./__capture/lead__capture.css');
-@import url('./intro/intro.css');
+@import url('./__intro/lead__intro.css');
 
 .lead__section {
     margin: 78px auto 0;

@@ -8,6 +8,8 @@
     line-height: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 0;
 }
 @media screen and (min-width : 768px) and (max-width :1023px) {
     .lead__capture {
@@ -18,5 +20,6 @@
 @media screen and (max-width : 767px) {
     .lead__capture {
         padding-left: 16px;
+        margin-top: 8px;
     }
 }

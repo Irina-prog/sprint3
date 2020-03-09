@@ -1,5 +1,5 @@
-@import url('../_theme_bold/intro_theme_bold.css');
-.intro__infa {
+@import url('../../../_theme_bold/lead_theme_bold.css');
+.lead__intro-infa {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -9,13 +9,13 @@
     margin: 0;
 }
 @media screen and (max-width : 767px) {
-    .intro__infa {
+    .lead__intro-infa {
         padding-top: 32px;
     }
 }
 
 @media screen and (min-width : 768px) {
-    .intro__infa {
+    .lead__intro-infa {
         padding-top: 24px;
     }
 }
