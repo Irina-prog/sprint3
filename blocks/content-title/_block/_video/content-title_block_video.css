@@ -6,17 +6,28 @@
     font-size: 72px;
     line-height: 78px;
     text-align: center;
+    width: 80%;
 }
 @media screen and (min-width : 768px) and (max-width : 1023px) {
     .content-title_block_video {
         font-size: 42px;
         line-height: 46px;
+        width: 70%;
     }
 }
-@media screen and (max-width : 767px) {
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .content-title_block_video {
+        font-size: calc(32px + (100vw - 375px)*0.0254);
+        line-height: calc(35px + (100vw - 375px)*0.028);
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 375px) {
     .content-title_block_video {
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 16px;
+        width: 90%;
     }
 }
