@@ -1,6 +1,25 @@
 
 .place__img {
     width: 100%;
+
     
-    
+}
+
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .place__img {
+       /* padding-bottom: 100%;*/
+        /*max-width: 340px;
+        max-height: 340px;*/
+        /*padding-left: calc(0.5445*(100vw - 375px));
+        padding-right: calc(0.5445*(100vw - 375px));*/
+        height: calc(375px + (375px - 100vw)*0.0891);
+        width: calc(375px + (375px - 100vw)*0.0891);
+        margin: 0 auto;
+
+    }
+}
+@media screen and (max-width : 767px) {
+    .place__img{
+        margin-bottom: 24px;
+    }
 }

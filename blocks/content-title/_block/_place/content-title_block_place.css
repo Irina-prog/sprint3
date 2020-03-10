@@ -13,11 +13,20 @@
         
     }
 }
-@media screen and (max-width : 767px) {
+@media screen and (max-width : 375px) {
     .content-title_block_place {
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 32px;
         padding-left: 16px;
+    }
+}
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .content-title_block_place {
+        font-size: calc(32px + (100vw - 375px)*0.0254);
+        line-height: calc(35px + (100vw - 375px)*0.028);
+        margin-bottom: calc(32px + (100vw - 375px)*0.0204);
+        padding-left: calc(16px + (100vw - 376px)*0.5064);
+        
     }
 }
