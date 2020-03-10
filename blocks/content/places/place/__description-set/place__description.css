@@ -17,11 +17,14 @@
     .place__description {
         padding-left: calc(16px + (100vw - 376px)*0.491);
         padding-right: calc(16px + (100vw - 376px)*0.491);
-        
+        font-size: 16px;
+        line-height: 27px;
     }
 }
 @media screen and (max-width : 375px) {
     .place__description {
         padding: 0 16px;
+        font-size: 16px;
+        line-height: 27px;
     }
 }
