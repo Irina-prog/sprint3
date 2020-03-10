@@ -34,7 +34,7 @@
     .cover {
         max-height: 500px;
         height: calc(500px + (100vw - 768px)*0.58);
-        /*height: calc(0.502*100vw);*/
+        
         
         width: 100%;
         margin: 48px auto 64px;
