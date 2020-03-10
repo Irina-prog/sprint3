@@ -11,7 +11,7 @@
 }
 @media screen and (min-width : 376px) and (max-width : 767px) {
     .photo-grid__card {
-        width: 100%;
+        width: calc(343px + (100vw - 376px)*0.023);
         height: auto;
     }
 }
