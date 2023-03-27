@@ -1,6 +1,21 @@
 
 .place__img {
-    width: 460px;
-    height: 460px;
+    width: 100%;
+
     
+}
+
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .place__img {
+       
+        height: calc(375px + (375px - 100vw)*0.0891);
+        width: calc(375px + (375px - 100vw)*0.0891);
+        margin: 0 auto;
+
+    }
+}
+@media screen and (max-width : 767px) {
+    .place__img{
+        margin-bottom: 24px;
+    }
 }

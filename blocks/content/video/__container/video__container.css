@@ -1,10 +1,36 @@
 @import url('./__link/video__link.css');
 
 .video__container {
-    width: 1184px;
+   
     margin: 0 auto 0;
     display: grid;
-    grid-template-columns: repeat(2, 583px);
+    
     grid-column-gap: 18px;
     position: relative;
+    justify-content: center;
+}
+@media screen and (max-width : 374px) {
+    .video__container {
+        grid-template-columns: repeat(auto-fill, 288px);
+        grid-row-gap: 8px;
+    }
+}
+
+@media screen and (min-width : 375px) and (max-width : 1023px) {
+    .video__container {
+        grid-template-columns: repeat(auto-fill, 352px);
+        grid-row-gap: 18px;
+    }
+}
+
+@media screen and (min-width : 1280px) {
+    .video__container {
+        grid-template-columns: repeat(2, 583px);
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .video__container {
+        grid-template-columns: repeat(2, 456px);
+    }
 }

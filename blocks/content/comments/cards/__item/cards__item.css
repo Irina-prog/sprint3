@@ -4,6 +4,6 @@
 
 .cards__item {
     display: flex;
-    width: 382px;
+    
     flex-direction: column;
 }

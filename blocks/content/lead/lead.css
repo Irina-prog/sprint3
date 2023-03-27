@@ -1,12 +1,30 @@
 @import url('../../content-title/_block/_lead/content-title_block_lead.css');
 @import url('../../content-subtitle/_block/_lead/content-subtitle_block_lead.css');
 @import url('./__section/lead__section.css');
+
+
+
+
+
+
 .lead {
     background: #2A2C2F;
-    min-width: 1280px;
-    max-width: 1440px;
+    
     margin: 48px auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width : 1440px) {
+    .lead {
+        padding: 0 228px 0;
+    }
+    
+}
+@media screen and (min-width : 1024px) and (max-width :1439px) {
+    .lead {
+        padding: 0 48px 0;
+    }
+    
 }

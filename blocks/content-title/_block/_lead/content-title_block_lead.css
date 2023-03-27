@@ -5,6 +5,21 @@
     line-height: 93px;
     text-align: center;
     max-width: 782px;
-    height: 184px;
+    
     margin: 0 auto 0;
+}
+
+@media screen  and (max-width : 375px){
+    .content-title_block_lead {
+        font-size: 40px;
+        line-height: 44px;
+        width: 90%;
+    }
+}
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .content-title_block_lead {
+        font-size: calc(96px + (100vw - 768px)*0.1425);
+        line-height: calc(93px + (100vw - 768px)*0.1247);
+        width: 90%;
+    }
 }

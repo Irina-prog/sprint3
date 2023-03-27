@@ -1,0 +1,16 @@
+
+.content-title_block_lead-intro {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+    margin: 0 auto 48px;
+}
+@media screen and (max-width : 767px)  {
+    .content-title_block_lead-intro {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 32px;
+
+    }
+}

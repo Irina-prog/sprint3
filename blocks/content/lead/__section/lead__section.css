@@ -1,8 +1,49 @@
 @import url('./__image/lead__image.css');
 @import url('./__capture/lead__capture.css');
+@import url('./__intro/lead__intro.css');
+
 .lead__section {
     margin: 78px auto 0;
     display: flex;
     flex-direction: column;
-    width: 984px;
+    
 }
+@media screen and (max-width : 375px)  {
+    .lead__section {
+        max-width: 375px;
+    }
+}
+@media screen and (max-width : 375px) {
+     .lead__section {
+        margin: 31px auto 0;
+    }
+}
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .lead__section {
+        margin-top: calc(31px + (100vw - 375px)*0.1196);
+    }
+}
+@media screen and (min-width : 1024px) and (max-width :1279px) {
+    .lead__section {
+        
+        min-width: 928px;
+        max-width: 984px;
+
+    }
+    
+}
+@media screen and (min-width : 1280px) and (max-width :1439px) {
+    .lead__section {
+        
+        width: 984px;
+    }
+    
+}
+@media screen and (min-width : 1440px) {
+    .lead__section {
+        width: 984px;
+    }
+    
+}
+
+

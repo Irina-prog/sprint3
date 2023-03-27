@@ -1,0 +1,29 @@
+@import url('../../../../../blocks/content-title/_block/_lead-intro/content-title_block_lead-intro.css');
+
+@import url('./__intro-description/lead__intro-description.css');
+@import url('./__intro-infa/lead__intro-infa.css');
+
+.lead__intro {
+    
+    padding-top: 80px;
+}
+
+@media screen and (min-width : 768px) and (max-width :1023px) {
+    .lead__intro {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+}
+@media screen and (max-width : 767px) {
+    .lead__intro {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .lead__intro {
+        padding-top: 64px;
+    }
+}

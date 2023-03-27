@@ -1,0 +1,19 @@
+.lead__intro-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .lead__intro-description {
+        width: 692px;
+    }
+}
+@media screen and (min-width : 1280px) {
+    .lead__intro-description {
+        width: 683px;
+    }
+}

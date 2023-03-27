@@ -1,7 +1,0 @@
-@import url('./__description/intro__description.css');
-@import url('./__author/intro__author.css');
-.intro__content-row {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 35px;
-}

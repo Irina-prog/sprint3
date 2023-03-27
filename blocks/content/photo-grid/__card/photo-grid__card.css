@@ -2,3 +2,23 @@
     width: 284px;
     height: 188px;
 }
+
+@media screen and (max-width : 375px) {
+    .photo-grid__card {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .photo-grid__card {
+        width: calc(343px + (100vw - 376px)*0.023);
+        height: auto;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .photo-grid__card {
+        width: 352px;
+        height: auto;
+
+    }
+}

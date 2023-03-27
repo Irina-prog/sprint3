@@ -1,0 +1,21 @@
+@import url('../../../_theme_bold/lead_theme_bold.css');
+.lead__intro-infa {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width : 767px) {
+    .lead__intro-infa {
+        padding-top: 32px;
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .lead__intro-infa {
+        padding-top: 24px;
+    }
+}

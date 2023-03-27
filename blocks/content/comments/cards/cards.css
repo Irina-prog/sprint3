@@ -2,8 +2,49 @@
 .cards {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 382px);
+    
     grid-row-gap: 19px;
     grid-column-gap: 19px;
-    width: 1184px;
+    
+    justify-content: center;
+}
+@media screen and (max-width : 375px) {
+    .cards {
+        display:flex;
+        flex-direction: column;
+        
+    }
+}
+@media screen and (min-width : 376px) and (max-width : 767px) {
+    .cards {
+        
+        display:flex;
+        flex-direction: column;
+       
+        padding:  0 calc(16px + (100% - 375px)*0.4504);
+        
+        
+
+    }
+}
+@media screen and (min-width : 768px) and (max-width :1023px) {
+    .cards {
+        grid-template-rows: repeat(3, auto);
+        padding: 0 25%;
+        grid-row-gap: 47px;
+    }
+    
+}
+
+@media screen and (min-width : 1280px) {
+    .cards {
+        grid-template-columns: repeat(3, 382px);
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .cards {
+        grid-template-columns: repeat(3, 296px);
+        grid-column-gap: 22px;
+    }
 }
